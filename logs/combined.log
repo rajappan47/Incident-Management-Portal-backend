@@ -1,0 +1,370 @@
+ [2026-08-10 13:09:56] [32minfo[39m: [32mServer running on port 5000[39m
+[2026-08-10 13:09:56] [32minfo[39m: [32mMongoDB Connected: 127.0.0.1[39m
+[2026-08-10 13:10:19] [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 2.837 ms[39m
+[2026-08-10 13:10:19] [37mdebug[39m: [37mUser logged in successfully: 6a79562aa1ccba0540071867 | Role: End User[39m
+[2026-08-10 13:10:19] [35mhttp[39m: [35mPOST /api/auth/login 200 354 - 242.583 ms[39m
+[2026-08-10 13:10:19] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.332 ms[39m
+[2026-08-10 13:10:19] [35mhttp[39m: [35mGET /api/auth/me 200 283 - 10.424 ms[39m
+[2026-08-10 13:10:19] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.291 ms[39m
+[2026-08-10 13:10:19] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.218 ms[39m
+[2026-08-10 13:10:19] [35mhttp[39m: [35mGET /api/incidents 200 517 - 41.510 ms[39m
+[2026-08-10 13:10:19] [35mhttp[39m: [35mGET /api/incidents 304 - - 18.868 ms[39m
+[2026-08-10 13:10:47] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.342 ms[39m
+[2026-08-10 13:10:47] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.882 ms[39m
+[2026-08-10 13:10:47] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 200 517 - 30.278 ms[39m
+[2026-08-10 13:10:47] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 13.275 ms[39m
+[2026-08-10 13:10:49] [35mhttp[39m: [35mOPTIONS /api/incidents/6a796721630e23aeecb8742e 204 0 - 0.287 ms[39m
+[2026-08-10 13:10:49] [35mhttp[39m: [35mOPTIONS /api/incidents/6a796721630e23aeecb8742e/comments 204 0 - 0.165 ms[39m
+[2026-08-10 13:10:49] [35mhttp[39m: [35mOPTIONS /api/incidents/6a796721630e23aeecb8742e/activities 204 0 - 1.003 ms[39m
+[2026-08-10 13:10:50] [35mhttp[39m: [35mOPTIONS /api/incidents/6a796721630e23aeecb8742e 204 0 - 0.263 ms[39m
+[2026-08-10 13:10:50] [35mhttp[39m: [35mOPTIONS /api/incidents/6a796721630e23aeecb8742e/comments 204 0 - 0.186 ms[39m
+[2026-08-10 13:10:50] [35mhttp[39m: [35mOPTIONS /api/incidents/6a796721630e23aeecb8742e/activities 204 0 - 0.124 ms[39m
+[2026-08-10 13:10:50] [37mdebug[39m: [37mFetching activity logs for incident: 6a796721630e23aeecb8742e[39m
+[2026-08-10 13:10:50] [35mhttp[39m: [35mGET /api/incidents/6a796721630e23aeecb8742e/comments 304 - - 40.123 ms[39m
+[2026-08-10 13:10:50] [35mhttp[39m: [35mGET /api/incidents/6a796721630e23aeecb8742e/activities 200 615 - 38.824 ms[39m
+[2026-08-10 13:10:50] [35mhttp[39m: [35mGET /api/incidents/6a796721630e23aeecb8742e 304 - - 53.232 ms[39m
+[2026-08-10 13:10:50] [35mhttp[39m: [35mGET /api/incidents/6a796721630e23aeecb8742e/comments 304 - - 20.885 ms[39m
+[2026-08-10 13:10:50] [37mdebug[39m: [37mFetching activity logs for incident: 6a796721630e23aeecb8742e[39m
+[2026-08-10 13:10:50] [35mhttp[39m: [35mGET /api/incidents/6a796721630e23aeecb8742e 304 - - 25.845 ms[39m
+[2026-08-10 13:10:50] [35mhttp[39m: [35mGET /api/incidents/6a796721630e23aeecb8742e/activities 304 - - 29.534 ms[39m
+[2026-08-10 13:11:01] [35mhttp[39m: [35mOPTIONS /api/incidents/6a796721630e23aeecb8742e/comments 204 0 - 0.139 ms[39m
+[2026-08-10 13:11:01] [37mdebug[39m: [37mComment added to incident: 6a796721630e23aeecb8742e by user: 6a79562aa1ccba0540071867 (Internal: false)[39m
+[2026-08-10 13:11:01] [35mhttp[39m: [35mPOST /api/incidents/6a796721630e23aeecb8742e/comments 201 299 - 30.646 ms[39m
+[2026-08-10 13:11:01] [35mhttp[39m: [35mOPTIONS /api/incidents/6a796721630e23aeecb8742e 204 0 - 0.183 ms[39m
+[2026-08-10 13:11:01] [35mhttp[39m: [35mOPTIONS /api/incidents/6a796721630e23aeecb8742e/activities 204 0 - 0.185 ms[39m
+[2026-08-10 13:11:01] [37mdebug[39m: [37mFetching activity logs for incident: 6a796721630e23aeecb8742e[39m
+[2026-08-10 13:11:01] [35mhttp[39m: [35mGET /api/incidents/6a796721630e23aeecb8742e 304 - - 20.338 ms[39m
+[2026-08-10 13:11:01] [35mhttp[39m: [35mGET /api/incidents/6a796721630e23aeecb8742e/comments 200 496 - 28.780 ms[39m
+[2026-08-10 13:11:01] [35mhttp[39m: [35mGET /api/incidents/6a796721630e23aeecb8742e/activities 304 - - 25.572 ms[39m
+[2026-08-10 13:11:07] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.147 ms[39m
+[2026-08-10 13:11:07] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.105 ms[39m
+[2026-08-10 13:11:07] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 17.989 ms[39m
+[2026-08-10 13:11:07] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 13.312 ms[39m
+[2026-08-10 13:11:29] [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.209 ms[39m
+[2026-08-10 13:11:29] [37mdebug[39m: [37mUser logged in successfully: 6a718a9b2f4ee61ace65b8a7 | Role: Admin[39m
+[2026-08-10 13:11:29] [35mhttp[39m: [35mPOST /api/auth/login 200 356 - 157.820 ms[39m
+[2026-08-10 13:11:29] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.148 ms[39m
+[2026-08-10 13:11:29] [35mhttp[39m: [35mGET /api/auth/me 200 295 - 5.642 ms[39m
+[2026-08-10 13:11:29] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.179 ms[39m
+[2026-08-10 13:11:29] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.145 ms[39m
+[2026-08-10 13:11:29] [35mhttp[39m: [35mGET /api/incidents 200 7244 - 20.602 ms[39m
+[2026-08-10 13:11:29] [35mhttp[39m: [35mGET /api/incidents 304 - - 21.828 ms[39m
+[2026-08-10 13:11:42] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.163 ms[39m
+[2026-08-10 13:11:42] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.294 ms[39m
+[2026-08-10 13:11:42] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.178 ms[39m
+[2026-08-10 13:11:42] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.088 ms[39m
+[2026-08-10 13:11:42] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 3.321 ms[39m
+[2026-08-10 13:11:42] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 200 7244 - 35.983 ms[39m
+[2026-08-10 13:11:42] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 1.311 ms[39m
+[2026-08-10 13:11:42] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.138 ms[39m
+[2026-08-10 13:11:42] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 16.894 ms[39m
+[2026-08-10 13:11:42] [35mhttp[39m: [35mGET /api/users 200 2878 - 48.017 ms[39m
+[2026-08-10 13:11:42] [35mhttp[39m: [35mGET /api/users 304 - - 8.708 ms[39m
+[2026-08-10 13:11:50] [35mhttp[39m: [35mOPTIONS /api/incidents/6a76ccfd7f75805ec783dcdf/assign 204 0 - 0.155 ms[39m
+[2026-08-10 13:11:50] [35mhttp[39m: [35mPATCH /api/incidents/6a76ccfd7f75805ec783dcdf/assign 200 754 - 361.057 ms[39m
+[2026-08-10 13:11:50] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.102 ms[39m
+[2026-08-10 13:11:50] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 200 7250 - 18.580 ms[39m
+[2026-08-10 13:11:54] [32minfo[39m: [32mReal Email Sent to rajappanofficial@gmail.com | Message ID: <30b50e3a-1c0c-feef-3240-1615bcd21f13@gmail.com>[39m
+[2026-08-10 13:12:07] [35mhttp[39m: [35mOPTIONS /api/categories 204 0 - 0.168 ms[39m
+[2026-08-10 13:12:07] [35mhttp[39m: [35mOPTIONS /api/categories 204 0 - 0.107 ms[39m
+[2026-08-10 13:12:07] [35mhttp[39m: [35mGET /api/categories 304 - - 6.693 ms[39m
+[2026-08-10 13:12:07] [35mhttp[39m: [35mGET /api/categories 304 - - 4.551 ms[39m
+[2026-08-10 13:12:24] [35mhttp[39m: [35mOPTIONS /api/categories 204 0 - 0.124 ms[39m
+[2026-08-10 13:12:24] [31merror[39m: [31m400 - Category already exists - /api/categories - POST - ::1[39m
+[2026-08-10 13:12:24] [35mhttp[39m: [35mPOST /api/categories 400 53 - 7.786 ms[39m
+[2026-08-10 15:20:21] [32minfo[39m: [32mServer running on port 5000[39m
+[2026-08-10 15:20:21] [32minfo[39m: [32mMongoDB Connected: 127.0.0.1[39m
+[2026-08-10 15:22:37] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 2.082 ms[39m
+[2026-08-10 15:22:37] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.390 ms[39m
+[2026-08-10 15:22:37] [35mhttp[39m: [35mGET /api/auth/me 304 - - 29.807 ms[39m
+[2026-08-10 15:22:37] [35mhttp[39m: [35mGET /api/auth/me 304 - - 4.821 ms[39m
+[2026-08-10 15:22:39] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.337 ms[39m
+[2026-08-10 15:22:39] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.223 ms[39m
+[2026-08-10 15:22:39] [35mhttp[39m: [35mGET /api/incidents 200 7250 - 52.233 ms[39m
+[2026-08-10 15:22:39] [35mhttp[39m: [35mGET /api/incidents 304 - - 28.075 ms[39m
+[2026-08-10 15:22:54] [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.331 ms[39m
+[2026-08-10 15:22:55] [37mdebug[39m: [37mUser logged in successfully: 6a718a9b2f4ee61ace65b8a7 | Role: Admin[39m
+[2026-08-10 15:22:55] [35mhttp[39m: [35mPOST /api/auth/login 200 356 - 370.732 ms[39m
+[2026-08-10 15:22:55] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.415 ms[39m
+[2026-08-10 15:22:55] [35mhttp[39m: [35mGET /api/auth/me 304 - - 5.617 ms[39m
+[2026-08-10 15:22:55] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.321 ms[39m
+[2026-08-10 15:22:55] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.206 ms[39m
+[2026-08-10 15:22:55] [35mhttp[39m: [35mGET /api/incidents 304 - - 30.250 ms[39m
+[2026-08-10 15:22:55] [35mhttp[39m: [35mGET /api/incidents 304 - - 19.784 ms[39m
+[2026-08-10 15:22:58] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.265 ms[39m
+[2026-08-10 15:22:58] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.265 ms[39m
+[2026-08-10 15:22:58] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.146 ms[39m
+[2026-08-10 15:22:58] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.247 ms[39m
+[2026-08-10 15:22:58] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 23.432 ms[39m
+[2026-08-10 15:22:58] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 18.926 ms[39m
+[2026-08-10 15:22:58] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 2.610 ms[39m
+[2026-08-10 15:22:58] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 1.256 ms[39m
+[2026-08-10 15:22:58] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.164 ms[39m
+[2026-08-10 15:22:59] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.156 ms[39m
+[2026-08-10 15:22:59] [35mhttp[39m: [35mGET /api/users 304 - - 17.671 ms[39m
+[2026-08-10 15:22:59] [35mhttp[39m: [35mGET /api/users 304 - - 13.667 ms[39m
+[2026-08-10 15:23:01] [35mhttp[39m: [35mGET /api/users 304 - - 9.945 ms[39m
+[2026-08-10 15:23:01] [35mhttp[39m: [35mGET /api/users 304 - - 10.040 ms[39m
+[2026-08-10 15:23:07] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.145 ms[39m
+[2026-08-10 15:23:07] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.221 ms[39m
+[2026-08-10 15:23:07] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.121 ms[39m
+[2026-08-10 15:23:07] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.439 ms[39m
+[2026-08-10 15:23:07] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 1.003 ms[39m
+[2026-08-10 15:23:07] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 50.776 ms[39m
+[2026-08-10 15:23:07] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 1.131 ms[39m
+[2026-08-10 15:23:07] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 13.589 ms[39m
+[2026-08-10 15:23:07] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.127 ms[39m
+[2026-08-10 15:23:07] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.076 ms[39m
+[2026-08-10 15:23:07] [35mhttp[39m: [35mGET /api/users 304 - - 8.444 ms[39m
+[2026-08-10 15:23:07] [35mhttp[39m: [35mGET /api/users 304 - - 15.964 ms[39m
+[2026-08-10 15:23:08] [35mhttp[39m: [35mOPTIONS /api/categories 204 0 - 0.367 ms[39m
+[2026-08-10 15:23:08] [35mhttp[39m: [35mOPTIONS /api/categories 204 0 - 0.079 ms[39m
+[2026-08-10 15:23:08] [35mhttp[39m: [35mGET /api/categories 304 - - 4.743 ms[39m
+[2026-08-10 15:23:08] [35mhttp[39m: [35mGET /api/categories 304 - - 3.276 ms[39m
+[2026-08-10 15:23:24] [35mhttp[39m: [35mOPTIONS /api/categories/6a7192b97b3cf23e1cd0dd55 204 0 - 0.179 ms[39m
+[2026-08-10 15:23:24] [37mdebug[39m: [37mCategory updated: 6a7192b97b3cf23e1cd0dd55[39m
+[2026-08-10 15:23:24] [35mhttp[39m: [35mPUT /api/categories/6a7192b97b3cf23e1cd0dd55 200 218 - 24.235 ms[39m
+[2026-08-10 15:23:24] [35mhttp[39m: [35mOPTIONS /api/categories 204 0 - 0.263 ms[39m
+[2026-08-10 15:23:24] [35mhttp[39m: [35mGET /api/categories 200 1867 - 4.844 ms[39m
+[2026-08-10 15:23:48] [35mhttp[39m: [35mOPTIONS /api/categories 204 0 - 0.156 ms[39m
+[2026-08-10 15:23:48] [37mdebug[39m: [37mCategory created: 6a799facaa0d4f5640bb0de2 (vm)[39m
+[2026-08-10 15:23:48] [35mhttp[39m: [35mPOST /api/categories 201 173 - 30.794 ms[39m
+[2026-08-10 15:23:48] [35mhttp[39m: [35mGET /api/categories 200 2041 - 4.679 ms[39m
+[2026-08-10 15:23:54] [35mhttp[39m: [35mOPTIONS /api/categories/6a799facaa0d4f5640bb0de2 204 0 - 0.165 ms[39m
+[2026-08-10 15:23:54] [37mdebug[39m: [37mCategory removed: 6a799facaa0d4f5640bb0de2[39m
+[2026-08-10 15:23:54] [35mhttp[39m: [35mDELETE /api/categories/6a799facaa0d4f5640bb0de2 200 43 - 84.544 ms[39m
+[2026-08-10 15:23:54] [35mhttp[39m: [35mOPTIONS /api/categories 204 0 - 0.157 ms[39m
+[2026-08-10 15:23:54] [35mhttp[39m: [35mGET /api/categories 200 1867 - 4.337 ms[39m
+[2026-08-10 15:23:59] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.154 ms[39m
+[2026-08-10 15:23:59] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.265 ms[39m
+[2026-08-10 15:23:59] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.101 ms[39m
+[2026-08-10 15:23:59] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.136 ms[39m
+[2026-08-10 15:23:59] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 1.252 ms[39m
+[2026-08-10 15:23:59] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 200 7238 - 61.552 ms[39m
+[2026-08-10 15:23:59] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 0.916 ms[39m
+[2026-08-10 15:23:59] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.119 ms[39m
+[2026-08-10 15:23:59] [35mhttp[39m: [35mGET /api/users 304 - - 13.318 ms[39m
+[2026-08-10 15:23:59] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 26.941 ms[39m
+[2026-08-10 15:23:59] [35mhttp[39m: [35mGET /api/users 304 - - 9.632 ms[39m
+[2026-08-10 15:24:10] [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.303 ms[39m
+[2026-08-10 15:24:10] [37mdebug[39m: [37mUser logged in successfully: 6a72deae67fb69131b311a5b | Role: Support Agent[39m
+[2026-08-10 15:24:10] [35mhttp[39m: [35mPOST /api/auth/login 200 371 - 157.337 ms[39m
+[2026-08-10 15:24:10] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.153 ms[39m
+[2026-08-10 15:24:10] [35mhttp[39m: [35mGET /api/auth/me 200 329 - 4.031 ms[39m
+[2026-08-10 15:24:10] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.154 ms[39m
+[2026-08-10 15:24:10] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.157 ms[39m
+[2026-08-10 15:24:10] [35mhttp[39m: [35mGET /api/incidents 200 3436 - 18.276 ms[39m
+[2026-08-10 15:24:10] [35mhttp[39m: [35mGET /api/incidents 304 - - 21.529 ms[39m
+[2026-08-10 15:24:15] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.150 ms[39m
+[2026-08-10 15:24:15] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.137 ms[39m
+[2026-08-10 15:24:15] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 22.071 ms[39m
+[2026-08-10 15:24:15] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 17.134 ms[39m
+[2026-08-10 15:24:19] [35mhttp[39m: [35mOPTIONS /api/incidents/6a76ccfd7f75805ec783dcdf 204 0 - 0.172 ms[39m
+[2026-08-10 15:24:19] [35mhttp[39m: [35mOPTIONS /api/incidents/6a76ccfd7f75805ec783dcdf/comments 204 0 - 0.121 ms[39m
+[2026-08-10 15:24:19] [35mhttp[39m: [35mOPTIONS /api/incidents/6a76ccfd7f75805ec783dcdf/activities 204 0 - 0.097 ms[39m
+[2026-08-10 15:24:19] [35mhttp[39m: [35mOPTIONS /api/incidents/team-members 204 0 - 0.156 ms[39m
+[2026-08-10 15:24:19] [35mhttp[39m: [35mOPTIONS /api/incidents/team-members 204 0 - 0.095 ms[39m
+[2026-08-10 15:24:19] [35mhttp[39m: [35mOPTIONS /api/incidents/6a76ccfd7f75805ec783dcdf/comments 204 0 - 0.116 ms[39m
+[2026-08-10 15:24:19] [35mhttp[39m: [35mOPTIONS /api/incidents/6a76ccfd7f75805ec783dcdf/activities 204 0 - 0.142 ms[39m
+[2026-08-10 15:24:19] [35mhttp[39m: [35mGET /api/incidents/6a76ccfd7f75805ec783dcdf 200 698 - 38.399 ms[39m
+[2026-08-10 15:24:20] [37mdebug[39m: [37mLOGGED IN USER CONTEXT: {"isSubUser":false,"parentUser":null,"subUserType":null,"permissions":[],"categories":[],"_id":"6a72deae67fb69131b311a5b","name":"raja","email":"rajappanofficial@gmail.com","role":"Support Agent","status":"active","createdAt":"2026-08-05T06:56:46.319Z","updatedAt":"2026-08-05T06:56:46.319Z","__v":0,"team":"Application Support"}[39m
+[2026-08-10 15:24:20] [37mdebug[39m: [37mFetching activity logs for incident: 6a76ccfd7f75805ec783dcdf[39m
+[2026-08-10 15:24:20] [35mhttp[39m: [35mGET /api/incidents/team-members 304 - - 22.330 ms[39m
+[2026-08-10 15:24:20] [35mhttp[39m: [35mGET /api/incidents/6a76ccfd7f75805ec783dcdf/comments 304 - - 28.730 ms[39m
+[2026-08-10 15:24:20] [35mhttp[39m: [35mGET /api/incidents/6a76ccfd7f75805ec783dcdf/activities 200 4653 - 56.954 ms[39m
+[2026-08-10 15:24:20] [37mdebug[39m: [37mLOGGED IN USER CONTEXT: {"isSubUser":false,"parentUser":null,"subUserType":null,"permissions":[],"categories":[],"_id":"6a72deae67fb69131b311a5b","name":"raja","email":"rajappanofficial@gmail.com","role":"Support Agent","status":"active","createdAt":"2026-08-05T06:56:46.319Z","updatedAt":"2026-08-05T06:56:46.319Z","__v":0,"team":"Application Support"}[39m
+[2026-08-10 15:24:20] [35mhttp[39m: [35mGET /api/incidents/team-members 304 - - 27.384 ms[39m
+[2026-08-10 15:24:20] [35mhttp[39m: [35mGET /api/incidents/6a76ccfd7f75805ec783dcdf 304 - - 55.290 ms[39m
+[2026-08-10 15:24:20] [37mdebug[39m: [37mFetching activity logs for incident: 6a76ccfd7f75805ec783dcdf[39m
+[2026-08-10 15:24:20] [35mhttp[39m: [35mGET /api/incidents/6a76ccfd7f75805ec783dcdf/comments 304 - - 36.766 ms[39m
+[2026-08-10 15:24:20] [35mhttp[39m: [35mGET /api/incidents/6a76ccfd7f75805ec783dcdf/activities 304 - - 21.838 ms[39m
+[2026-08-10 15:24:29] [35mhttp[39m: [35mOPTIONS /api/incidents/6a76ccfd7f75805ec783dcdf/comments 204 0 - 0.180 ms[39m
+[2026-08-10 15:24:29] [37mdebug[39m: [37mComment added to incident: 6a76ccfd7f75805ec783dcdf by user: 6a72deae67fb69131b311a5b (Internal: false)[39m
+[2026-08-10 15:24:29] [35mhttp[39m: [35mPOST /api/incidents/6a76ccfd7f75805ec783dcdf/comments 201 307 - 20.309 ms[39m
+[2026-08-10 15:24:29] [35mhttp[39m: [35mOPTIONS /api/incidents/6a76ccfd7f75805ec783dcdf 204 0 - 0.155 ms[39m
+[2026-08-10 15:24:29] [35mhttp[39m: [35mOPTIONS /api/incidents/6a76ccfd7f75805ec783dcdf/activities 204 0 - 0.151 ms[39m
+[2026-08-10 15:24:29] [35mhttp[39m: [35mGET /api/incidents/6a76ccfd7f75805ec783dcdf 304 - - 23.072 ms[39m
+[2026-08-10 15:24:29] [37mdebug[39m: [37mFetching activity logs for incident: 6a76ccfd7f75805ec783dcdf[39m
+[2026-08-10 15:24:29] [35mhttp[39m: [35mGET /api/incidents/6a76ccfd7f75805ec783dcdf/comments 200 258 - 28.842 ms[39m
+[2026-08-10 15:24:29] [35mhttp[39m: [35mGET /api/incidents/6a76ccfd7f75805ec783dcdf/activities 304 - - 26.478 ms[39m
+[2026-08-10 15:24:40] [35mhttp[39m: [35mOPTIONS /api/incidents/6a76ccfd7f75805ec783dcdf/comments 204 0 - 0.203 ms[39m
+[2026-08-10 15:24:40] [37mdebug[39m: [37mComment added to incident: 6a76ccfd7f75805ec783dcdf by user: 6a72deae67fb69131b311a5b (Internal: false)[39m
+[2026-08-10 15:24:40] [35mhttp[39m: [35mPOST /api/incidents/6a76ccfd7f75805ec783dcdf/comments 201 323 - 16.982 ms[39m
+[2026-08-10 15:24:40] [35mhttp[39m: [35mOPTIONS /api/incidents/6a76ccfd7f75805ec783dcdf 204 0 - 0.758 ms[39m
+[2026-08-10 15:24:40] [35mhttp[39m: [35mOPTIONS /api/incidents/6a76ccfd7f75805ec783dcdf/activities 204 0 - 0.231 ms[39m
+[2026-08-10 15:24:40] [35mhttp[39m: [35mGET /api/incidents/6a76ccfd7f75805ec783dcdf/comments 200 531 - 36.219 ms[39m
+[2026-08-10 15:24:41] [37mdebug[39m: [37mFetching activity logs for incident: 6a76ccfd7f75805ec783dcdf[39m
+[2026-08-10 15:24:41] [35mhttp[39m: [35mGET /api/incidents/6a76ccfd7f75805ec783dcdf 304 - - 88.692 ms[39m
+[2026-08-10 15:24:41] [35mhttp[39m: [35mGET /api/incidents/6a76ccfd7f75805ec783dcdf/activities 304 - - 82.366 ms[39m
+[2026-08-10 15:24:48] [35mhttp[39m: [35mOPTIONS /api/incidents/6a76ccfd7f75805ec783dcdf/status 204 0 - 0.335 ms[39m
+[2026-08-10 15:24:48] [35mhttp[39m: [35mPATCH /api/incidents/6a76ccfd7f75805ec783dcdf/status 200 486 - 31.811 ms[39m
+[2026-08-10 15:24:48] [35mhttp[39m: [35mOPTIONS /api/incidents/6a76ccfd7f75805ec783dcdf 204 0 - 0.139 ms[39m
+[2026-08-10 15:24:48] [35mhttp[39m: [35mOPTIONS /api/incidents/6a76ccfd7f75805ec783dcdf/comments 204 0 - 0.116 ms[39m
+[2026-08-10 15:24:48] [35mhttp[39m: [35mOPTIONS /api/incidents/6a76ccfd7f75805ec783dcdf/activities 204 0 - 0.096 ms[39m
+[2026-08-10 15:24:48] [35mhttp[39m: [35mGET /api/incidents/6a76ccfd7f75805ec783dcdf 200 694 - 42.122 ms[39m
+[2026-08-10 15:24:48] [37mdebug[39m: [37mFetching activity logs for incident: 6a76ccfd7f75805ec783dcdf[39m
+[2026-08-10 15:24:48] [35mhttp[39m: [35mGET /api/incidents/6a76ccfd7f75805ec783dcdf/comments 304 - - 47.011 ms[39m
+[2026-08-10 15:24:48] [35mhttp[39m: [35mGET /api/incidents/6a76ccfd7f75805ec783dcdf/activities 200 4970 - 29.184 ms[39m
+[2026-08-10 15:24:53] [32minfo[39m: [32mReal Email Sent to rahulrajappan52@gmail.com | Message ID: <5516a81a-0d7a-ce63-dae7-50b15f51d40e@gmail.com>[39m
+[2026-08-10 16:34:28] [32minfo[39m: [32mServer running on port 5000[39m
+[2026-08-10 16:34:28] [32minfo[39m: [32mMongoDB Connected: 127.0.0.1[39m
+[2026-08-10 16:34:43] [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.275 ms[39m
+[2026-08-10 16:34:43] [37mdebug[39m: [37mUser logged in successfully: 6a79562aa1ccba0540071867 | Role: End User[39m
+[2026-08-10 16:34:43] [35mhttp[39m: [35mPOST /api/auth/login 200 354 - 167.966 ms[39m
+[2026-08-10 16:34:43] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.119 ms[39m
+[2026-08-10 16:34:43] [35mhttp[39m: [35mGET /api/auth/me 200 283 - 6.385 ms[39m
+[2026-08-10 16:34:43] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.136 ms[39m
+[2026-08-10 16:34:43] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.137 ms[39m
+[2026-08-10 16:34:43] [35mhttp[39m: [35mGET /api/incidents 200 517 - 15.756 ms[39m
+[2026-08-10 16:34:43] [35mhttp[39m: [35mGET /api/incidents 304 - - 12.318 ms[39m
+[2026-08-10 16:34:49] [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.158 ms[39m
+[2026-08-10 16:34:49] [37mdebug[39m: [37mUser logged in successfully: 6a79562aa1ccba0540071867 | Role: End User[39m
+[2026-08-10 16:34:49] [35mhttp[39m: [35mPOST /api/auth/login 200 354 - 162.742 ms[39m
+[2026-08-10 16:34:49] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.166 ms[39m
+[2026-08-10 16:34:49] [35mhttp[39m: [35mGET /api/auth/me 304 - - 4.350 ms[39m
+[2026-08-10 16:34:49] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.119 ms[39m
+[2026-08-10 16:34:49] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.129 ms[39m
+[2026-08-10 16:34:49] [35mhttp[39m: [35mGET /api/incidents 304 - - 11.118 ms[39m
+[2026-08-10 16:34:49] [35mhttp[39m: [35mGET /api/incidents 304 - - 12.612 ms[39m
+[2026-08-10 16:34:55] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.146 ms[39m
+[2026-08-10 16:34:55] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.088 ms[39m
+[2026-08-10 16:34:55] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 200 517 - 14.648 ms[39m
+[2026-08-10 16:34:55] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 10.502 ms[39m
+[2026-08-10 16:35:10] [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.168 ms[39m
+[2026-08-10 16:35:10] [37mdebug[39m: [37mUser logged in successfully: 6a718a9b2f4ee61ace65b8a7 | Role: Admin[39m
+[2026-08-10 16:35:10] [35mhttp[39m: [35mPOST /api/auth/login 200 356 - 148.712 ms[39m
+[2026-08-10 16:35:10] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.149 ms[39m
+[2026-08-10 16:35:10] [35mhttp[39m: [35mGET /api/auth/me 200 295 - 4.039 ms[39m
+[2026-08-10 16:35:10] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.142 ms[39m
+[2026-08-10 16:35:10] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.143 ms[39m
+[2026-08-10 16:35:10] [35mhttp[39m: [35mGET /api/incidents 200 7234 - 19.511 ms[39m
+[2026-08-10 16:35:11] [35mhttp[39m: [35mGET /api/incidents 304 - - 14.771 ms[39m
+[2026-08-10 16:35:15] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.299 ms[39m
+[2026-08-10 16:35:15] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.126 ms[39m
+[2026-08-10 16:35:15] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.177 ms[39m
+[2026-08-10 16:35:15] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.143 ms[39m
+[2026-08-10 16:35:15] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 3.604 ms[39m
+[2026-08-10 16:35:15] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 200 7234 - 30.186 ms[39m
+[2026-08-10 16:35:15] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 0.498 ms[39m
+[2026-08-10 16:35:15] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.134 ms[39m
+[2026-08-10 16:35:15] [35mhttp[39m: [35mGET /api/users 304 - - 11.643 ms[39m
+[2026-08-10 16:35:15] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 25.868 ms[39m
+[2026-08-10 16:35:15] [35mhttp[39m: [35mGET /api/users 304 - - 20.551 ms[39m
+[2026-08-10 16:35:17] [35mhttp[39m: [35mGET /api/users 304 - - 15.946 ms[39m
+[2026-08-10 16:35:17] [35mhttp[39m: [35mGET /api/users 304 - - 9.021 ms[39m
+[2026-08-10 16:35:19] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 0.488 ms[39m
+[2026-08-10 16:35:19] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 24.496 ms[39m
+[2026-08-10 16:35:19] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 1.296 ms[39m
+[2026-08-10 16:35:19] [35mhttp[39m: [35mGET /api/users 304 - - 9.368 ms[39m
+[2026-08-10 16:35:19] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 18.849 ms[39m
+[2026-08-10 16:35:19] [35mhttp[39m: [35mGET /api/users 304 - - 8.592 ms[39m
+[2026-08-10 16:35:23] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.257 ms[39m
+[2026-08-10 16:35:23] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.099 ms[39m
+[2026-08-10 16:35:23] [35mhttp[39m: [35mGET /api/incidents 304 - - 20.334 ms[39m
+[2026-08-10 16:35:23] [35mhttp[39m: [35mGET /api/incidents 304 - - 12.763 ms[39m
+[2026-08-10 16:35:26] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.268 ms[39m
+[2026-08-10 16:35:26] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.180 ms[39m
+[2026-08-10 16:35:26] [35mhttp[39m: [35mGET /api/users 304 - - 8.361 ms[39m
+[2026-08-10 16:35:26] [35mhttp[39m: [35mGET /api/users 304 - - 9.149 ms[39m
+[2026-08-10 16:35:28] [35mhttp[39m: [35mGET /api/incidents 304 - - 14.056 ms[39m
+[2026-08-10 16:35:28] [35mhttp[39m: [35mGET /api/incidents 304 - - 15.654 ms[39m
+[2026-08-10 16:35:29] [35mhttp[39m: [35mOPTIONS /api/categories 204 0 - 0.162 ms[39m
+[2026-08-10 16:35:29] [35mhttp[39m: [35mOPTIONS /api/categories 204 0 - 0.095 ms[39m
+[2026-08-10 16:35:29] [35mhttp[39m: [35mGET /api/categories 304 - - 5.521 ms[39m
+[2026-08-10 16:35:29] [35mhttp[39m: [35mGET /api/categories 304 - - 3.291 ms[39m
+[2026-08-10 16:35:32] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.156 ms[39m
+[2026-08-10 16:35:32] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.068 ms[39m
+[2026-08-10 16:35:32] [35mhttp[39m: [35mGET /api/incidents 304 - - 19.379 ms[39m
+[2026-08-10 16:35:32] [35mhttp[39m: [35mGET /api/incidents 304 - - 15.700 ms[39m
+[2026-08-10 16:35:48] [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.161 ms[39m
+[2026-08-10 16:35:49] [37mdebug[39m: [37mUser logged in successfully: 6a72deae67fb69131b311a5b | Role: Support Agent[39m
+[2026-08-10 16:35:49] [35mhttp[39m: [35mPOST /api/auth/login 200 371 - 149.537 ms[39m
+[2026-08-10 16:35:49] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.178 ms[39m
+[2026-08-10 16:35:49] [35mhttp[39m: [35mGET /api/auth/me 200 329 - 3.912 ms[39m
+[2026-08-10 16:35:49] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.163 ms[39m
+[2026-08-10 16:35:49] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.144 ms[39m
+[2026-08-10 16:35:49] [35mhttp[39m: [35mGET /api/incidents 200 3432 - 14.129 ms[39m
+[2026-08-10 16:35:49] [35mhttp[39m: [35mGET /api/incidents 304 - - 12.144 ms[39m
+[2026-08-10 16:35:51] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.220 ms[39m
+[2026-08-10 16:35:51] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.091 ms[39m
+[2026-08-10 16:35:51] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 19.472 ms[39m
+[2026-08-10 16:35:51] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 16.024 ms[39m
+[2026-08-10 16:36:15] [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.140 ms[39m
+[2026-08-10 16:36:15] [37mdebug[39m: [37mUser logged in successfully: 6a71937b7b3cf23e1cd0dd56 | Role: End User[39m
+[2026-08-10 16:36:15] [35mhttp[39m: [35mPOST /api/auth/login 200 355 - 223.485 ms[39m
+[2026-08-10 16:36:15] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.155 ms[39m
+[2026-08-10 16:36:15] [35mhttp[39m: [35mGET /api/auth/me 200 290 - 3.921 ms[39m
+[2026-08-10 16:36:15] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.146 ms[39m
+[2026-08-10 16:36:15] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.125 ms[39m
+[2026-08-10 16:36:15] [35mhttp[39m: [35mGET /api/incidents 200 3857 - 11.461 ms[39m
+[2026-08-10 16:36:15] [35mhttp[39m: [35mGET /api/incidents 304 - - 11.519 ms[39m
+[2026-08-10 16:36:19] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.141 ms[39m
+[2026-08-10 16:36:19] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.104 ms[39m
+[2026-08-10 16:36:19] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 200 3857 - 18.945 ms[39m
+[2026-08-10 16:36:19] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 14.288 ms[39m
+[2026-08-10 16:36:23] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.150 ms[39m
+[2026-08-10 16:36:23] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.096 ms[39m
+[2026-08-10 16:36:23] [35mhttp[39m: [35mGET /api/incidents 304 - - 28.130 ms[39m
+[2026-08-10 16:36:23] [35mhttp[39m: [35mGET /api/incidents 304 - - 53.074 ms[39m
+[2026-08-10 16:36:27] [35mhttp[39m: [35mOPTIONS /api/incidents/6a747d0e5baf4607c5dcabf2 204 0 - 0.166 ms[39m
+[2026-08-10 16:36:27] [35mhttp[39m: [35mOPTIONS /api/incidents/6a747d0e5baf4607c5dcabf2/comments 204 0 - 0.147 ms[39m
+[2026-08-10 16:36:27] [35mhttp[39m: [35mOPTIONS /api/incidents/6a747d0e5baf4607c5dcabf2/activities 204 0 - 0.157 ms[39m
+[2026-08-10 16:36:27] [35mhttp[39m: [35mOPTIONS /api/incidents/6a747d0e5baf4607c5dcabf2 204 0 - 0.332 ms[39m
+[2026-08-10 16:36:27] [35mhttp[39m: [35mOPTIONS /api/incidents/6a747d0e5baf4607c5dcabf2/comments 204 0 - 0.122 ms[39m
+[2026-08-10 16:36:27] [35mhttp[39m: [35mOPTIONS /api/incidents/6a747d0e5baf4607c5dcabf2/activities 204 0 - 0.105 ms[39m
+[2026-08-10 16:36:27] [37mdebug[39m: [37mFetching activity logs for incident: 6a747d0e5baf4607c5dcabf2[39m
+[2026-08-10 16:36:27] [35mhttp[39m: [35mGET /api/incidents/6a747d0e5baf4607c5dcabf2 200 697 - 18.195 ms[39m
+[2026-08-10 16:36:27] [35mhttp[39m: [35mGET /api/incidents/6a747d0e5baf4607c5dcabf2/comments 200 2 - 17.704 ms[39m
+[2026-08-10 16:36:27] [35mhttp[39m: [35mGET /api/incidents/6a747d0e5baf4607c5dcabf2/activities 200 930 - 20.435 ms[39m
+[2026-08-10 16:36:27] [35mhttp[39m: [35mGET /api/incidents/6a747d0e5baf4607c5dcabf2/comments 304 - - 15.335 ms[39m
+[2026-08-10 16:36:27] [35mhttp[39m: [35mGET /api/incidents/6a747d0e5baf4607c5dcabf2 304 - - 14.590 ms[39m
+[2026-08-10 16:36:27] [37mdebug[39m: [37mFetching activity logs for incident: 6a747d0e5baf4607c5dcabf2[39m
+[2026-08-10 16:36:27] [35mhttp[39m: [35mGET /api/incidents/6a747d0e5baf4607c5dcabf2/activities 304 - - 17.482 ms[39m
+[2026-08-10 16:36:37] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.207 ms[39m
+[2026-08-10 16:36:37] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.076 ms[39m
+[2026-08-10 16:36:37] [35mhttp[39m: [35mGET /api/incidents 304 - - 13.145 ms[39m
+[2026-08-10 16:36:37] [35mhttp[39m: [35mGET /api/incidents 304 - - 12.799 ms[39m
+[2026-08-10 16:36:39] [35mhttp[39m: [35mOPTIONS /api/incidents/6a7465a90da64523208c9dc6 204 0 - 0.244 ms[39m
+[2026-08-10 16:36:39] [35mhttp[39m: [35mOPTIONS /api/incidents/6a7465a90da64523208c9dc6/comments 204 0 - 0.096 ms[39m
+[2026-08-10 16:36:39] [35mhttp[39m: [35mOPTIONS /api/incidents/6a7465a90da64523208c9dc6/activities 204 0 - 0.161 ms[39m
+[2026-08-10 16:36:39] [35mhttp[39m: [35mOPTIONS /api/incidents/6a7465a90da64523208c9dc6 204 0 - 0.111 ms[39m
+[2026-08-10 16:36:39] [35mhttp[39m: [35mOPTIONS /api/incidents/6a7465a90da64523208c9dc6/comments 204 0 - 0.077 ms[39m
+[2026-08-10 16:36:39] [35mhttp[39m: [35mOPTIONS /api/incidents/6a7465a90da64523208c9dc6/activities 204 0 - 0.081 ms[39m
+[2026-08-10 16:36:39] [35mhttp[39m: [35mGET /api/incidents/6a7465a90da64523208c9dc6 200 725 - 22.745 ms[39m
+[2026-08-10 16:36:39] [37mdebug[39m: [37mFetching activity logs for incident: 6a7465a90da64523208c9dc6[39m
+[2026-08-10 16:36:39] [35mhttp[39m: [35mGET /api/incidents/6a7465a90da64523208c9dc6/comments 200 540 - 32.026 ms[39m
+[2026-08-10 16:36:39] [35mhttp[39m: [35mGET /api/incidents/6a7465a90da64523208c9dc6/activities 200 313 - 28.670 ms[39m
+[2026-08-10 16:36:39] [35mhttp[39m: [35mGET /api/incidents/6a7465a90da64523208c9dc6 304 - - 15.928 ms[39m
+[2026-08-10 16:36:39] [37mdebug[39m: [37mFetching activity logs for incident: 6a7465a90da64523208c9dc6[39m
+[2026-08-10 16:36:39] [35mhttp[39m: [35mGET /api/incidents/6a7465a90da64523208c9dc6/comments 304 - - 18.096 ms[39m
+[2026-08-10 16:36:39] [35mhttp[39m: [35mGET /api/incidents/6a7465a90da64523208c9dc6/activities 304 - - 13.892 ms[39m
+[2026-08-10 16:36:43] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.178 ms[39m
+[2026-08-10 16:36:43] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.084 ms[39m
+[2026-08-10 16:36:43] [35mhttp[39m: [35mGET /api/incidents 304 - - 14.611 ms[39m
+[2026-08-10 16:36:43] [35mhttp[39m: [35mGET /api/incidents 304 - - 11.013 ms[39m
+[2026-08-10 16:36:45] [35mhttp[39m: [35mOPTIONS /api/incidents/6a72c5637cb9bd5c75ceacb6 204 0 - 0.148 ms[39m
+[2026-08-10 16:36:45] [35mhttp[39m: [35mOPTIONS /api/incidents/6a72c5637cb9bd5c75ceacb6/comments 204 0 - 0.522 ms[39m
+[2026-08-10 16:36:45] [35mhttp[39m: [35mOPTIONS /api/incidents/6a72c5637cb9bd5c75ceacb6/activities 204 0 - 0.377 ms[39m
+[2026-08-10 16:36:45] [35mhttp[39m: [35mOPTIONS /api/incidents/6a72c5637cb9bd5c75ceacb6/activities 204 0 - 0.115 ms[39m
+[2026-08-10 16:36:45] [35mhttp[39m: [35mOPTIONS /api/incidents/6a72c5637cb9bd5c75ceacb6/comments 204 0 - 0.548 ms[39m
+[2026-08-10 16:36:45] [35mhttp[39m: [35mOPTIONS /api/incidents/6a72c5637cb9bd5c75ceacb6 204 0 - 0.202 ms[39m
+[2026-08-10 16:36:45] [37mdebug[39m: [37mFetching activity logs for incident: 6a72c5637cb9bd5c75ceacb6[39m
+[2026-08-10 16:36:45] [35mhttp[39m: [35mGET /api/incidents/6a72c5637cb9bd5c75ceacb6 200 655 - 17.506 ms[39m
+[2026-08-10 16:36:45] [35mhttp[39m: [35mGET /api/incidents/6a72c5637cb9bd5c75ceacb6/comments 200 505 - 20.759 ms[39m
+[2026-08-10 16:36:45] [35mhttp[39m: [35mGET /api/incidents/6a72c5637cb9bd5c75ceacb6/activities 200 1208 - 20.653 ms[39m
+[2026-08-10 16:36:45] [35mhttp[39m: [35mGET /api/incidents/6a72c5637cb9bd5c75ceacb6 304 - - 15.652 ms[39m
+[2026-08-10 16:36:45] [37mdebug[39m: [37mFetching activity logs for incident: 6a72c5637cb9bd5c75ceacb6[39m
+[2026-08-10 16:36:45] [35mhttp[39m: [35mGET /api/incidents/6a72c5637cb9bd5c75ceacb6/comments 304 - - 22.316 ms[39m
+[2026-08-10 16:36:45] [35mhttp[39m: [35mGET /api/incidents/6a72c5637cb9bd5c75ceacb6/activities 304 - - 19.856 ms[39m
+[2026-08-10 16:36:48] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.184 ms[39m
+[2026-08-10 16:36:48] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.118 ms[39m
+[2026-08-10 16:36:48] [35mhttp[39m: [35mGET /api/incidents 304 - - 13.565 ms[39m
+[2026-08-10 16:36:48] [35mhttp[39m: [35mGET /api/incidents 304 - - 13.429 ms[39m
+[2026-08-10 17:53:21] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 1.580 ms[39m
+[2026-08-10 17:53:21] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.119 ms[39m
+[2026-08-10 17:53:21] [35mhttp[39m: [35mGET /api/auth/me 304 - - 22.069 ms[39m
+[2026-08-10 17:53:21] [35mhttp[39m: [35mGET /api/auth/me 304 - - 4.632 ms[39m
+[2026-08-10 17:53:21] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.131 ms[39m
+[2026-08-10 17:53:21] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.130 ms[39m
+[2026-08-10 17:53:21] [35mhttp[39m: [35mGET /api/incidents 304 - - 24.731 ms[39m
+[2026-08-10 17:53:21] [35mhttp[39m: [35mGET /api/incidents 304 - - 16.693 ms[39m
