@@ -368,3 +368,914 @@
 [2026-08-10 17:53:21] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.130 ms[39m
 [2026-08-10 17:53:21] [35mhttp[39m: [35mGET /api/incidents 304 - - 24.731 ms[39m
 [2026-08-10 17:53:21] [35mhttp[39m: [35mGET /api/incidents 304 - - 16.693 ms[39m
+[2026-08-11 10:18:07] [32minfo[39m: [32mServer running on port 5000[39m
+[2026-08-11 10:18:07] [32minfo[39m: [32mMongoDB Connected: 127.0.0.1[39m
+[2026-08-11 10:41:53] [32minfo[39m: [32mServer running on port 5000[39m
+[2026-08-11 10:41:53] [32minfo[39m: [32mMongoDB Connected: 127.0.0.1[39m
+[2026-08-11 11:21:38] [32minfo[39m: [32mServer running on port 5000[39m
+[2026-08-11 11:21:38] [32minfo[39m: [32mSwagger API Documentation live at http://localhost:5000/api-docs[39m
+[2026-08-11 11:21:38] [32minfo[39m: [32mMongoDB Connected: 127.0.0.1[39m
+[2026-08-11 11:21:49] [35mhttp[39m: [35mGET /api-docs 301 158 - 33.374 ms[39m
+[2026-08-11 11:21:49] [35mhttp[39m: [35mGET /api-docs/ 200 3106 - 9.761 ms[39m
+[2026-08-11 11:21:49] [35mhttp[39m: [35mGET /api-docs/swagger-ui-init.js 200 10458 - 1.015 ms[39m
+[2026-08-11 11:21:49] [35mhttp[39m: [35mGET /api-docs/swagger-ui.css 200 178977 - 21.139 ms[39m
+[2026-08-11 11:21:49] [35mhttp[39m: [35mGET /api-docs/swagger-ui-standalone-preset.js 200 268471 - 35.147 ms[39m
+[2026-08-11 11:21:49] [35mhttp[39m: [35mGET /api-docs/swagger-ui-bundle.js 200 1555039 - 88.796 ms[39m
+[2026-08-11 11:21:50] [35mhttp[39m: [35mGET /api-docs/favicon-32x32.png 200 628 - 10.819 ms[39m
+[2026-08-11 11:27:31] [35mhttp[39m: [35mGET /api-docs/ 304 - - 2.656 ms[39m
+[2026-08-11 11:27:31] [35mhttp[39m: [35mGET /api-docs/swagger-ui.css 304 - - 10.196 ms[39m
+[2026-08-11 11:27:31] [35mhttp[39m: [35mGET /api-docs/swagger-ui-init.js 304 - - 1.491 ms[39m
+[2026-08-11 11:27:31] [35mhttp[39m: [35mGET /api-docs/swagger-ui-bundle.js 304 - - 15.952 ms[39m
+[2026-08-11 11:27:31] [35mhttp[39m: [35mGET /api-docs/swagger-ui-standalone-preset.js 304 - - 14.874 ms[39m
+[2026-08-11 11:27:32] [35mhttp[39m: [35mGET /api-docs/favicon-32x32.png 304 - - 2.085 ms[39m
+[2026-08-11 11:27:52] [32minfo[39m: [32mServer running on port 5000[39m
+[2026-08-11 11:27:52] [32minfo[39m: [32mSwagger API Documentation live at http://localhost:5000/api-docs[39m
+[2026-08-11 11:27:52] [32minfo[39m: [32mMongoDB Connected: 127.0.0.1[39m
+[2026-08-11 11:28:08] [35mhttp[39m: [35mGET /api-docs/ 304 - - 29.585 ms[39m
+[2026-08-11 11:28:08] [35mhttp[39m: [35mGET /api-docs/swagger-ui.css 304 - - 22.209 ms[39m
+[2026-08-11 11:28:08] [35mhttp[39m: [35mGET /api-docs/swagger-ui-init.js 200 13693 - 2.296 ms[39m
+[2026-08-11 11:28:08] [35mhttp[39m: [35mGET /api-docs/swagger-ui-bundle.js 304 - - 20.124 ms[39m
+[2026-08-11 11:28:08] [35mhttp[39m: [35mGET /api-docs/swagger-ui-standalone-preset.js 304 - - 4.635 ms[39m
+[2026-08-11 11:28:08] [35mhttp[39m: [35mGET /api-docs/favicon-32x32.png 304 - - 2.732 ms[39m
+[2026-08-11 11:41:56] [32minfo[39m: [32mServer running on port 5000[39m
+[2026-08-11 11:41:56] [32minfo[39m: [32mSwagger API Documentation live at http://localhost:5000/api-docs[39m
+[2026-08-11 11:41:56] [32minfo[39m: [32mMongoDB Connected: 127.0.0.1[39m
+[2026-08-11 11:42:02] [35mhttp[39m: [35mGET /api-docs/ 304 - - 8.808 ms[39m
+[2026-08-11 11:42:02] [35mhttp[39m: [35mGET /api-docs/swagger-ui.css 304 - - 2.887 ms[39m
+[2026-08-11 11:42:02] [35mhttp[39m: [35mGET /api-docs/swagger-ui-init.js 200 39250 - 0.921 ms[39m
+[2026-08-11 11:42:02] [35mhttp[39m: [35mGET /api-docs/swagger-ui-bundle.js 304 - - 5.145 ms[39m
+[2026-08-11 11:42:02] [35mhttp[39m: [35mGET /api-docs/swagger-ui-standalone-preset.js 304 - - 6.788 ms[39m
+[2026-08-11 11:42:02] [35mhttp[39m: [35mGET /api-docs/favicon-32x32.png 304 - - 1.028 ms[39m
+[2026-08-11 12:38:12] [32minfo[39m: [32mServer running on port 5000[39m
+[2026-08-11 12:38:12] [32minfo[39m: [32mSwagger API Documentation live at http://localhost:5000/api-docs[39m
+[2026-08-11 12:38:12] [32minfo[39m: [32m[Escalation Job] Scheduler initialized — running every 15 minutes.[39m
+[2026-08-11 12:38:12] [32minfo[39m: [32mMongoDB Connected: 127.0.0.1[39m
+[2026-08-11 12:39:00] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 1.365 ms[39m
+[2026-08-11 12:39:00] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.324 ms[39m
+[2026-08-11 12:39:00] [35mhttp[39m: [35mGET /api/auth/me 304 - - 28.000 ms[39m
+[2026-08-11 12:39:00] [35mhttp[39m: [35mGET /api/auth/me 304 - - 3.516 ms[39m
+[2026-08-11 12:39:02] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.154 ms[39m
+[2026-08-11 12:39:02] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.149 ms[39m
+[2026-08-11 12:39:02] [35mhttp[39m: [35mGET /api/incidents 200 4130 - 25.320 ms[39m
+[2026-08-11 12:39:02] [35mhttp[39m: [35mGET /api/incidents 304 - - 11.360 ms[39m
+[2026-08-11 12:39:14] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.224 ms[39m
+[2026-08-11 12:39:14] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.192 ms[39m
+[2026-08-11 12:39:14] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 200 4130 - 14.435 ms[39m
+[2026-08-11 12:39:14] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 10.657 ms[39m
+[2026-08-11 12:39:20] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.160 ms[39m
+[2026-08-11 12:39:20] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.063 ms[39m
+[2026-08-11 12:39:20] [35mhttp[39m: [35mGET /api/incidents 304 - - 7.278 ms[39m
+[2026-08-11 12:39:20] [35mhttp[39m: [35mGET /api/incidents 304 - - 6.549 ms[39m
+[2026-08-11 12:39:21] [35mhttp[39m: [35mOPTIONS /api/incidents/6a747d0e5baf4607c5dcabf2 204 0 - 0.200 ms[39m
+[2026-08-11 12:39:21] [35mhttp[39m: [35mOPTIONS /api/incidents/6a747d0e5baf4607c5dcabf2/comments 204 0 - 0.157 ms[39m
+[2026-08-11 12:39:21] [35mhttp[39m: [35mOPTIONS /api/incidents/6a747d0e5baf4607c5dcabf2/activities 204 0 - 0.138 ms[39m
+[2026-08-11 12:39:21] [35mhttp[39m: [35mOPTIONS /api/incidents/6a747d0e5baf4607c5dcabf2 204 0 - 0.137 ms[39m
+[2026-08-11 12:39:21] [35mhttp[39m: [35mOPTIONS /api/incidents/6a747d0e5baf4607c5dcabf2/comments 204 0 - 0.232 ms[39m
+[2026-08-11 12:39:21] [35mhttp[39m: [35mOPTIONS /api/incidents/6a747d0e5baf4607c5dcabf2/activities 204 0 - 0.087 ms[39m
+[2026-08-11 12:39:21] [37mdebug[39m: [37mFetching activity logs for incident: 6a747d0e5baf4607c5dcabf2[39m
+[2026-08-11 12:39:21] [35mhttp[39m: [35mGET /api/incidents/6a747d0e5baf4607c5dcabf2 200 736 - 20.662 ms[39m
+[2026-08-11 12:39:21] [35mhttp[39m: [35mGET /api/incidents/6a747d0e5baf4607c5dcabf2/comments 304 - - 18.582 ms[39m
+[2026-08-11 12:39:21] [35mhttp[39m: [35mGET /api/incidents/6a747d0e5baf4607c5dcabf2/activities 304 - - 20.436 ms[39m
+[2026-08-11 12:39:22] [35mhttp[39m: [35mGET /api/incidents/6a747d0e5baf4607c5dcabf2/comments 304 - - 10.372 ms[39m
+[2026-08-11 12:39:22] [37mdebug[39m: [37mFetching activity logs for incident: 6a747d0e5baf4607c5dcabf2[39m
+[2026-08-11 12:39:22] [35mhttp[39m: [35mGET /api/incidents/6a747d0e5baf4607c5dcabf2 304 - - 12.015 ms[39m
+[2026-08-11 12:39:22] [35mhttp[39m: [35mGET /api/incidents/6a747d0e5baf4607c5dcabf2/activities 304 - - 12.959 ms[39m
+[2026-08-11 12:39:28] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.174 ms[39m
+[2026-08-11 12:39:28] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.088 ms[39m
+[2026-08-11 12:39:28] [35mhttp[39m: [35mGET /api/incidents 304 - - 5.612 ms[39m
+[2026-08-11 12:39:28] [35mhttp[39m: [35mGET /api/incidents 304 - - 9.579 ms[39m
+[2026-08-11 12:39:30] [35mhttp[39m: [35mOPTIONS /api/incidents/6a7465a90da64523208c9dc6 204 0 - 0.168 ms[39m
+[2026-08-11 12:39:30] [35mhttp[39m: [35mOPTIONS /api/incidents/6a7465a90da64523208c9dc6/comments 204 0 - 0.098 ms[39m
+[2026-08-11 12:39:30] [35mhttp[39m: [35mOPTIONS /api/incidents/6a7465a90da64523208c9dc6/activities 204 0 - 0.105 ms[39m
+[2026-08-11 12:39:30] [35mhttp[39m: [35mOPTIONS /api/incidents/6a7465a90da64523208c9dc6/comments 204 0 - 0.112 ms[39m
+[2026-08-11 12:39:30] [35mhttp[39m: [35mOPTIONS /api/incidents/6a7465a90da64523208c9dc6 204 0 - 0.096 ms[39m
+[2026-08-11 12:39:30] [35mhttp[39m: [35mOPTIONS /api/incidents/6a7465a90da64523208c9dc6/activities 204 0 - 0.098 ms[39m
+[2026-08-11 12:39:30] [37mdebug[39m: [37mFetching activity logs for incident: 6a7465a90da64523208c9dc6[39m
+[2026-08-11 12:39:30] [35mhttp[39m: [35mGET /api/incidents/6a7465a90da64523208c9dc6 200 764 - 13.256 ms[39m
+[2026-08-11 12:39:30] [35mhttp[39m: [35mGET /api/incidents/6a7465a90da64523208c9dc6/comments 304 - - 14.317 ms[39m
+[2026-08-11 12:39:30] [35mhttp[39m: [35mGET /api/incidents/6a7465a90da64523208c9dc6/activities 304 - - 14.551 ms[39m
+[2026-08-11 12:39:30] [37mdebug[39m: [37mFetching activity logs for incident: 6a7465a90da64523208c9dc6[39m
+[2026-08-11 12:39:30] [35mhttp[39m: [35mGET /api/incidents/6a7465a90da64523208c9dc6 304 - - 10.797 ms[39m
+[2026-08-11 12:39:30] [35mhttp[39m: [35mGET /api/incidents/6a7465a90da64523208c9dc6/comments 304 - - 12.956 ms[39m
+[2026-08-11 12:39:30] [35mhttp[39m: [35mGET /api/incidents/6a7465a90da64523208c9dc6/activities 304 - - 12.523 ms[39m
+[2026-08-11 12:39:36] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.095 ms[39m
+[2026-08-11 12:39:36] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.090 ms[39m
+[2026-08-11 12:39:36] [35mhttp[39m: [35mGET /api/incidents 304 - - 11.906 ms[39m
+[2026-08-11 12:39:36] [35mhttp[39m: [35mGET /api/incidents 304 - - 13.828 ms[39m
+[2026-08-11 12:39:38] [35mhttp[39m: [35mOPTIONS /api/incidents/6a72c5637cb9bd5c75ceacb6 204 0 - 0.176 ms[39m
+[2026-08-11 12:39:38] [35mhttp[39m: [35mOPTIONS /api/incidents/6a72c5637cb9bd5c75ceacb6/comments 204 0 - 0.167 ms[39m
+[2026-08-11 12:39:38] [35mhttp[39m: [35mOPTIONS /api/incidents/6a72c5637cb9bd5c75ceacb6/activities 204 0 - 0.133 ms[39m
+[2026-08-11 12:39:38] [35mhttp[39m: [35mOPTIONS /api/incidents/6a72c5637cb9bd5c75ceacb6 204 0 - 0.263 ms[39m
+[2026-08-11 12:39:38] [35mhttp[39m: [35mOPTIONS /api/incidents/6a72c5637cb9bd5c75ceacb6/comments 204 0 - 0.158 ms[39m
+[2026-08-11 12:39:38] [35mhttp[39m: [35mOPTIONS /api/incidents/6a72c5637cb9bd5c75ceacb6/activities 204 0 - 0.098 ms[39m
+[2026-08-11 12:39:38] [37mdebug[39m: [37mFetching activity logs for incident: 6a72c5637cb9bd5c75ceacb6[39m
+[2026-08-11 12:39:38] [35mhttp[39m: [35mGET /api/incidents/6a72c5637cb9bd5c75ceacb6 200 694 - 15.023 ms[39m
+[2026-08-11 12:39:38] [35mhttp[39m: [35mGET /api/incidents/6a72c5637cb9bd5c75ceacb6/comments 304 - - 15.806 ms[39m
+[2026-08-11 12:39:38] [35mhttp[39m: [35mGET /api/incidents/6a72c5637cb9bd5c75ceacb6/activities 304 - - 16.093 ms[39m
+[2026-08-11 12:39:38] [37mdebug[39m: [37mFetching activity logs for incident: 6a72c5637cb9bd5c75ceacb6[39m
+[2026-08-11 12:39:38] [35mhttp[39m: [35mGET /api/incidents/6a72c5637cb9bd5c75ceacb6 304 - - 11.894 ms[39m
+[2026-08-11 12:39:38] [35mhttp[39m: [35mGET /api/incidents/6a72c5637cb9bd5c75ceacb6/comments 304 - - 13.826 ms[39m
+[2026-08-11 12:39:38] [35mhttp[39m: [35mGET /api/incidents/6a72c5637cb9bd5c75ceacb6/activities 304 - - 14.104 ms[39m
+[2026-08-11 12:39:41] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.115 ms[39m
+[2026-08-11 12:39:41] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.078 ms[39m
+[2026-08-11 12:39:41] [35mhttp[39m: [35mGET /api/incidents 304 - - 5.913 ms[39m
+[2026-08-11 12:39:41] [35mhttp[39m: [35mGET /api/incidents 304 - - 6.618 ms[39m
+[2026-08-11 12:39:56] [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.080 ms[39m
+[2026-08-11 12:39:56] [37mdebug[39m: [37mUser logged in successfully: 6a718a9b2f4ee61ace65b8a7 | Role: Admin[39m
+[2026-08-11 12:39:56] [35mhttp[39m: [35mPOST /api/auth/login 200 356 - 147.096 ms[39m
+[2026-08-11 12:39:56] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.211 ms[39m
+[2026-08-11 12:39:56] [35mhttp[39m: [35mGET /api/auth/me 200 295 - 2.473 ms[39m
+[2026-08-11 12:39:56] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.123 ms[39m
+[2026-08-11 12:39:56] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.127 ms[39m
+[2026-08-11 12:39:56] [35mhttp[39m: [35mGET /api/incidents 200 7741 - 9.804 ms[39m
+[2026-08-11 12:39:56] [35mhttp[39m: [35mGET /api/incidents 304 - - 10.663 ms[39m
+[2026-08-11 12:40:11] [35mhttp[39m: [35mOPTIONS /api/incidents/6a76ccfd7f75805ec783dcdf 204 0 - 0.138 ms[39m
+[2026-08-11 12:40:11] [35mhttp[39m: [35mOPTIONS /api/incidents/6a76ccfd7f75805ec783dcdf/comments 204 0 - 0.171 ms[39m
+[2026-08-11 12:40:11] [35mhttp[39m: [35mOPTIONS /api/incidents/6a76ccfd7f75805ec783dcdf/activities 204 0 - 0.124 ms[39m
+[2026-08-11 12:40:11] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.111 ms[39m
+[2026-08-11 12:40:11] [35mhttp[39m: [35mOPTIONS /api/incidents/6a76ccfd7f75805ec783dcdf/comments 204 0 - 0.115 ms[39m
+[2026-08-11 12:40:11] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.094 ms[39m
+[2026-08-11 12:40:11] [35mhttp[39m: [35mOPTIONS /api/incidents/6a76ccfd7f75805ec783dcdf/activities 204 0 - 0.172 ms[39m
+[2026-08-11 12:40:11] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 4.534 ms[39m
+[2026-08-11 12:40:11] [35mhttp[39m: [35mGET /api/incidents/6a76ccfd7f75805ec783dcdf 200 733 - 21.318 ms[39m
+[2026-08-11 12:40:11] [37mdebug[39m: [37mFetching activity logs for incident: 6a76ccfd7f75805ec783dcdf[39m
+[2026-08-11 12:40:11] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 3.723 ms[39m
+[2026-08-11 12:40:11] [35mhttp[39m: [35mGET /api/incidents/6a76ccfd7f75805ec783dcdf/comments 304 - - 25.269 ms[39m
+[2026-08-11 12:40:11] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.119 ms[39m
+[2026-08-11 12:40:11] [35mhttp[39m: [35mGET /api/incidents/6a76ccfd7f75805ec783dcdf/activities 304 - - 23.803 ms[39m
+[2026-08-11 12:40:11] [37mdebug[39m: [37mFetching activity logs for incident: 6a76ccfd7f75805ec783dcdf[39m
+[2026-08-11 12:40:11] [35mhttp[39m: [35mGET /api/users 304 - - 12.011 ms[39m
+[2026-08-11 12:40:11] [35mhttp[39m: [35mGET /api/incidents/6a76ccfd7f75805ec783dcdf/comments 304 - - 22.310 ms[39m
+[2026-08-11 12:40:11] [35mhttp[39m: [35mGET /api/incidents/6a76ccfd7f75805ec783dcdf/activities 304 - - 22.123 ms[39m
+[2026-08-11 12:40:11] [35mhttp[39m: [35mGET /api/incidents/6a76ccfd7f75805ec783dcdf 304 - - 27.016 ms[39m
+[2026-08-11 12:40:11] [35mhttp[39m: [35mGET /api/users 304 - - 8.573 ms[39m
+[2026-08-11 12:40:19] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.169 ms[39m
+[2026-08-11 12:40:19] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.160 ms[39m
+[2026-08-11 12:40:19] [35mhttp[39m: [35mGET /api/incidents 304 - - 8.000 ms[39m
+[2026-08-11 12:40:19] [35mhttp[39m: [35mGET /api/incidents 304 - - 11.697 ms[39m
+[2026-08-11 12:40:21] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.163 ms[39m
+[2026-08-11 12:40:21] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.181 ms[39m
+[2026-08-11 12:40:21] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.104 ms[39m
+[2026-08-11 12:40:21] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.083 ms[39m
+[2026-08-11 12:40:21] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 1.349 ms[39m
+[2026-08-11 12:40:21] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 200 7741 - 12.311 ms[39m
+[2026-08-11 12:40:21] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 0.418 ms[39m
+[2026-08-11 12:40:21] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.065 ms[39m
+[2026-08-11 12:40:21] [35mhttp[39m: [35mGET /api/users 304 - - 6.629 ms[39m
+[2026-08-11 12:40:21] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 10.955 ms[39m
+[2026-08-11 12:40:21] [35mhttp[39m: [35mGET /api/users 304 - - 7.012 ms[39m
+[2026-08-11 12:40:29] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.117 ms[39m
+[2026-08-11 12:40:29] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.127 ms[39m
+[2026-08-11 12:40:29] [35mhttp[39m: [35mGET /api/incidents 304 - - 12.021 ms[39m
+[2026-08-11 12:40:29] [35mhttp[39m: [35mGET /api/incidents 304 - - 9.972 ms[39m
+[2026-08-11 12:40:33] [35mhttp[39m: [35mOPTIONS /api/incidents/6a72c5637cb9bd5c75ceacb6 204 0 - 0.144 ms[39m
+[2026-08-11 12:40:33] [35mhttp[39m: [35mOPTIONS /api/incidents/6a72c5637cb9bd5c75ceacb6/comments 204 0 - 0.139 ms[39m
+[2026-08-11 12:40:33] [35mhttp[39m: [35mOPTIONS /api/incidents/6a72c5637cb9bd5c75ceacb6/activities 204 0 - 0.104 ms[39m
+[2026-08-11 12:40:33] [35mhttp[39m: [35mOPTIONS /api/incidents/6a72c5637cb9bd5c75ceacb6 204 0 - 0.153 ms[39m
+[2026-08-11 12:40:33] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.152 ms[39m
+[2026-08-11 12:40:33] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.095 ms[39m
+[2026-08-11 12:40:33] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 2.542 ms[39m
+[2026-08-11 12:40:33] [35mhttp[39m: [35mGET /api/incidents/6a72c5637cb9bd5c75ceacb6 304 - - 19.216 ms[39m
+[2026-08-11 12:40:33] [37mdebug[39m: [37mFetching activity logs for incident: 6a72c5637cb9bd5c75ceacb6[39m
+[2026-08-11 12:40:33] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.061 ms[39m
+[2026-08-11 12:40:33] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 2.224 ms[39m
+[2026-08-11 12:40:33] [35mhttp[39m: [35mGET /api/incidents/6a72c5637cb9bd5c75ceacb6/comments 304 - - 23.684 ms[39m
+[2026-08-11 12:40:33] [35mhttp[39m: [35mGET /api/incidents/6a72c5637cb9bd5c75ceacb6/activities 304 - - 23.163 ms[39m
+[2026-08-11 12:40:33] [35mhttp[39m: [35mGET /api/users 304 - - 11.916 ms[39m
+[2026-08-11 12:40:33] [35mhttp[39m: [35mGET /api/incidents/6a72c5637cb9bd5c75ceacb6 304 - - 18.272 ms[39m
+[2026-08-11 12:40:33] [37mdebug[39m: [37mFetching activity logs for incident: 6a72c5637cb9bd5c75ceacb6[39m
+[2026-08-11 12:40:33] [35mhttp[39m: [35mGET /api/incidents/6a72c5637cb9bd5c75ceacb6/comments 304 - - 18.296 ms[39m
+[2026-08-11 12:40:33] [35mhttp[39m: [35mGET /api/users 304 - - 8.343 ms[39m
+[2026-08-11 12:40:33] [35mhttp[39m: [35mGET /api/incidents/6a72c5637cb9bd5c75ceacb6/activities 304 - - 17.819 ms[39m
+[2026-08-11 12:40:37] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.121 ms[39m
+[2026-08-11 12:40:37] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.071 ms[39m
+[2026-08-11 12:40:37] [35mhttp[39m: [35mGET /api/incidents 304 - - 6.393 ms[39m
+[2026-08-11 12:40:37] [35mhttp[39m: [35mGET /api/incidents 304 - - 8.412 ms[39m
+[2026-08-11 12:40:43] [35mhttp[39m: [35mOPTIONS /api/incidents/6a7465a90da64523208c9dc6 204 0 - 0.104 ms[39m
+[2026-08-11 12:40:43] [35mhttp[39m: [35mOPTIONS /api/incidents/6a7465a90da64523208c9dc6/comments 204 0 - 0.104 ms[39m
+[2026-08-11 12:40:43] [35mhttp[39m: [35mOPTIONS /api/incidents/6a7465a90da64523208c9dc6/activities 204 0 - 0.093 ms[39m
+[2026-08-11 12:40:43] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.110 ms[39m
+[2026-08-11 12:40:43] [35mhttp[39m: [35mOPTIONS /api/incidents/6a7465a90da64523208c9dc6 204 0 - 0.066 ms[39m
+[2026-08-11 12:40:43] [35mhttp[39m: [35mOPTIONS /api/incidents/6a7465a90da64523208c9dc6/comments 204 0 - 0.167 ms[39m
+[2026-08-11 12:40:43] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.082 ms[39m
+[2026-08-11 12:40:43] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 3.355 ms[39m
+[2026-08-11 12:40:43] [37mdebug[39m: [37mFetching activity logs for incident: 6a7465a90da64523208c9dc6[39m
+[2026-08-11 12:40:43] [35mhttp[39m: [35mGET /api/incidents/6a7465a90da64523208c9dc6 304 - - 15.236 ms[39m
+[2026-08-11 12:40:43] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.083 ms[39m
+[2026-08-11 12:40:43] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 2.642 ms[39m
+[2026-08-11 12:40:43] [35mhttp[39m: [35mGET /api/incidents/6a7465a90da64523208c9dc6/activities 304 - - 21.738 ms[39m
+[2026-08-11 12:40:43] [35mhttp[39m: [35mGET /api/incidents/6a7465a90da64523208c9dc6/comments 304 - - 21.614 ms[39m
+[2026-08-11 12:40:43] [35mhttp[39m: [35mGET /api/users 304 - - 9.370 ms[39m
+[2026-08-11 12:40:43] [37mdebug[39m: [37mFetching activity logs for incident: 6a7465a90da64523208c9dc6[39m
+[2026-08-11 12:40:43] [35mhttp[39m: [35mGET /api/incidents/6a7465a90da64523208c9dc6 304 - - 13.994 ms[39m
+[2026-08-11 12:40:43] [35mhttp[39m: [35mGET /api/incidents/6a7465a90da64523208c9dc6/activities 304 - - 14.954 ms[39m
+[2026-08-11 12:40:43] [35mhttp[39m: [35mGET /api/incidents/6a7465a90da64523208c9dc6/comments 304 - - 17.573 ms[39m
+[2026-08-11 12:40:43] [35mhttp[39m: [35mGET /api/users 304 - - 8.820 ms[39m
+[2026-08-11 12:40:47] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.168 ms[39m
+[2026-08-11 12:40:47] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.077 ms[39m
+[2026-08-11 12:40:47] [35mhttp[39m: [35mGET /api/incidents 304 - - 6.842 ms[39m
+[2026-08-11 12:40:47] [35mhttp[39m: [35mGET /api/incidents 304 - - 6.754 ms[39m
+[2026-08-11 12:40:51] [35mhttp[39m: [35mOPTIONS /api/incidents/6a747d0e5baf4607c5dcabf2 204 0 - 0.105 ms[39m
+[2026-08-11 12:40:51] [35mhttp[39m: [35mOPTIONS /api/incidents/6a747d0e5baf4607c5dcabf2/comments 204 0 - 0.127 ms[39m
+[2026-08-11 12:40:51] [35mhttp[39m: [35mOPTIONS /api/incidents/6a747d0e5baf4607c5dcabf2/activities 204 0 - 0.171 ms[39m
+[2026-08-11 12:40:51] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.108 ms[39m
+[2026-08-11 12:40:51] [35mhttp[39m: [35mOPTIONS /api/incidents/6a747d0e5baf4607c5dcabf2 204 0 - 0.090 ms[39m
+[2026-08-11 12:40:51] [35mhttp[39m: [35mOPTIONS /api/incidents/6a747d0e5baf4607c5dcabf2/comments 204 0 - 0.123 ms[39m
+[2026-08-11 12:40:51] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 0.576 ms[39m
+[2026-08-11 12:40:51] [37mdebug[39m: [37mFetching activity logs for incident: 6a747d0e5baf4607c5dcabf2[39m
+[2026-08-11 12:40:51] [35mhttp[39m: [35mGET /api/incidents/6a747d0e5baf4607c5dcabf2 304 - - 15.885 ms[39m
+[2026-08-11 12:40:51] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 0.445 ms[39m
+[2026-08-11 12:40:51] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.095 ms[39m
+[2026-08-11 12:40:51] [35mhttp[39m: [35mGET /api/incidents/6a747d0e5baf4607c5dcabf2/comments 304 - - 17.172 ms[39m
+[2026-08-11 12:40:51] [35mhttp[39m: [35mGET /api/incidents/6a747d0e5baf4607c5dcabf2/activities 304 - - 20.905 ms[39m
+[2026-08-11 12:40:51] [35mhttp[39m: [35mGET /api/users 304 - - 10.530 ms[39m
+[2026-08-11 12:40:51] [35mhttp[39m: [35mGET /api/incidents/6a747d0e5baf4607c5dcabf2 304 - - 14.389 ms[39m
+[2026-08-11 12:40:51] [35mhttp[39m: [35mGET /api/incidents/6a747d0e5baf4607c5dcabf2/comments 304 - - 13.293 ms[39m
+[2026-08-11 12:40:51] [37mdebug[39m: [37mFetching activity logs for incident: 6a747d0e5baf4607c5dcabf2[39m
+[2026-08-11 12:40:51] [35mhttp[39m: [35mGET /api/users 304 - - 4.745 ms[39m
+[2026-08-11 12:40:51] [35mhttp[39m: [35mGET /api/incidents/6a747d0e5baf4607c5dcabf2/activities 304 - - 13.870 ms[39m
+[2026-08-11 12:40:54] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.121 ms[39m
+[2026-08-11 12:40:54] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.059 ms[39m
+[2026-08-11 12:40:54] [35mhttp[39m: [35mGET /api/incidents 304 - - 5.484 ms[39m
+[2026-08-11 12:40:54] [35mhttp[39m: [35mGET /api/incidents 304 - - 7.778 ms[39m
+[2026-08-11 12:40:57] [35mhttp[39m: [35mOPTIONS /api/incidents/6a796721630e23aeecb8742e 204 0 - 0.101 ms[39m
+[2026-08-11 12:40:57] [35mhttp[39m: [35mOPTIONS /api/incidents/6a796721630e23aeecb8742e/comments 204 0 - 0.133 ms[39m
+[2026-08-11 12:40:57] [35mhttp[39m: [35mOPTIONS /api/incidents/6a796721630e23aeecb8742e/activities 204 0 - 0.166 ms[39m
+[2026-08-11 12:40:57] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.087 ms[39m
+[2026-08-11 12:40:57] [35mhttp[39m: [35mOPTIONS /api/incidents/6a796721630e23aeecb8742e 204 0 - 0.099 ms[39m
+[2026-08-11 12:40:57] [35mhttp[39m: [35mOPTIONS /api/incidents/6a796721630e23aeecb8742e/comments 204 0 - 0.109 ms[39m
+[2026-08-11 12:40:57] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 1.070 ms[39m
+[2026-08-11 12:40:57] [37mdebug[39m: [37mFetching activity logs for incident: 6a796721630e23aeecb8742e[39m
+[2026-08-11 12:40:57] [35mhttp[39m: [35mGET /api/incidents/6a796721630e23aeecb8742e 200 694 - 11.581 ms[39m
+[2026-08-11 12:40:57] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 0.470 ms[39m
+[2026-08-11 12:40:57] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.113 ms[39m
+[2026-08-11 12:40:57] [35mhttp[39m: [35mGET /api/incidents/6a796721630e23aeecb8742e/activities 304 - - 17.302 ms[39m
+[2026-08-11 12:40:57] [35mhttp[39m: [35mGET /api/incidents/6a796721630e23aeecb8742e/comments 304 - - 17.571 ms[39m
+[2026-08-11 12:40:57] [31merror[39m: [31m429 - Too many requests from this IP. Please try again after 15 minutes. - /api/incidents/6a796721630e23aeecb8742e/comments - GET - ::1[39m
+[2026-08-11 12:40:57] [35mhttp[39m: [35mGET /api/incidents/6a796721630e23aeecb8742e/comments 429 96 - 1.378 ms[39m
+[2026-08-11 12:40:57] [35mhttp[39m: [35mGET /api/users 304 - - 11.298 ms[39m
+[2026-08-11 12:40:57] [37mdebug[39m: [37mFetching activity logs for incident: 6a796721630e23aeecb8742e[39m
+[2026-08-11 12:40:57] [35mhttp[39m: [35mGET /api/incidents/6a796721630e23aeecb8742e 304 - - 16.142 ms[39m
+[2026-08-11 12:40:57] [31merror[39m: [31m429 - Too many requests from this IP. Please try again after 15 minutes. - /api/users - GET - ::1[39m
+[2026-08-11 12:40:57] [35mhttp[39m: [35mGET /api/users 429 96 - 0.742 ms[39m
+[2026-08-11 12:40:57] [35mhttp[39m: [35mGET /api/incidents/6a796721630e23aeecb8742e/activities 304 - - 15.994 ms[39m
+[2026-08-11 12:41:03] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.147 ms[39m
+[2026-08-11 12:41:03] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.072 ms[39m
+[2026-08-11 12:41:03] [31merror[39m: [31m429 - Too many requests from this IP. Please try again after 15 minutes. - /api/incidents - GET - ::1[39m
+[2026-08-11 12:41:03] [35mhttp[39m: [35mGET /api/incidents 429 96 - 0.819 ms[39m
+[2026-08-11 12:41:03] [31merror[39m: [31m429 - Too many requests from this IP. Please try again after 15 minutes. - /api/incidents - GET - ::1[39m
+[2026-08-11 12:41:03] [35mhttp[39m: [35mGET /api/incidents 429 96 - 0.842 ms[39m
+[2026-08-11 12:41:11] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.196 ms[39m
+[2026-08-11 12:41:11] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.101 ms[39m
+[2026-08-11 12:41:11] [31merror[39m: [31m429 - Too many requests from this IP. Please try again after 15 minutes. - /api/auth/me - GET - ::1[39m
+[2026-08-11 12:41:11] [35mhttp[39m: [35mGET /api/auth/me 429 96 - 1.366 ms[39m
+[2026-08-11 12:41:11] [31merror[39m: [31m429 - Too many requests from this IP. Please try again after 15 minutes. - /api/auth/me - GET - ::1[39m
+[2026-08-11 12:41:11] [35mhttp[39m: [35mGET /api/auth/me 429 96 - 1.197 ms[39m
+[2026-08-11 12:41:56] [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.115 ms[39m
+[2026-08-11 12:41:56] [31merror[39m: [31m429 - Too many requests from this IP. Please try again after 15 minutes. - /api/auth/login - POST - ::1[39m
+[2026-08-11 12:41:56] [35mhttp[39m: [35mPOST /api/auth/login 429 96 - 0.936 ms[39m
+[2026-08-11 12:45:00] [32minfo[39m: [32m[Escalation Job] Running SLA escalation check...[39m
+[2026-08-11 12:45:00] [32minfo[39m: [32m[Escalation] No overdue incidents to escalate.[39m
+[2026-08-11 12:45:00] [32minfo[39m: [32m[Escalation Job] Done. Escalated: 0[39m
+[2026-08-11 12:46:26] [32minfo[39m: [32mServer running on port 5000[39m
+[2026-08-11 12:46:26] [32minfo[39m: [32mSwagger API Documentation live at http://localhost:5000/api-docs[39m
+[2026-08-11 12:46:26] [32minfo[39m: [32m[Escalation Job] Scheduler initialized — running every 15 minutes.[39m
+[2026-08-11 12:46:26] [32minfo[39m: [32mMongoDB Connected: 127.0.0.1[39m
+[2026-08-11 12:46:35] [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 1.187 ms[39m
+[2026-08-11 12:46:35] [37mdebug[39m: [37mUser logged in successfully: 6a79562aa1ccba0540071867 | Role: End User[39m
+[2026-08-11 12:46:35] [35mhttp[39m: [35mPOST /api/auth/login 200 354 - 96.667 ms[39m
+[2026-08-11 12:46:35] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.175 ms[39m
+[2026-08-11 12:46:35] [35mhttp[39m: [35mGET /api/auth/me 200 283 - 6.018 ms[39m
+[2026-08-11 12:46:35] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.298 ms[39m
+[2026-08-11 12:46:35] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.129 ms[39m
+[2026-08-11 12:46:35] [35mhttp[39m: [35mGET /api/incidents 200 556 - 20.948 ms[39m
+[2026-08-11 12:46:35] [35mhttp[39m: [35mGET /api/incidents 304 - - 12.742 ms[39m
+[2026-08-11 12:46:38] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.192 ms[39m
+[2026-08-11 12:46:38] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.090 ms[39m
+[2026-08-11 12:46:38] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 200 556 - 9.929 ms[39m
+[2026-08-11 12:46:38] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 6.273 ms[39m
+[2026-08-11 12:47:02] [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.215 ms[39m
+[2026-08-11 12:47:02] [37mdebug[39m: [37mUser logged in successfully: 6a718a9b2f4ee61ace65b8a7 | Role: Admin[39m
+[2026-08-11 12:47:02] [35mhttp[39m: [35mPOST /api/auth/login 200 356 - 78.079 ms[39m
+[2026-08-11 12:47:02] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.149 ms[39m
+[2026-08-11 12:47:02] [35mhttp[39m: [35mGET /api/auth/me 200 295 - 2.346 ms[39m
+[2026-08-11 12:47:02] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.172 ms[39m
+[2026-08-11 12:47:02] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.152 ms[39m
+[2026-08-11 12:47:02] [35mhttp[39m: [35mGET /api/incidents 200 7741 - 14.365 ms[39m
+[2026-08-11 12:47:02] [35mhttp[39m: [35mGET /api/incidents 304 - - 12.052 ms[39m
+[2026-08-11 12:47:06] [35mhttp[39m: [35mOPTIONS /api/incidents/6a75c025557f8ce99cb64629 204 0 - 0.131 ms[39m
+[2026-08-11 12:47:06] [35mhttp[39m: [35mOPTIONS /api/incidents/6a75c025557f8ce99cb64629/comments 204 0 - 0.124 ms[39m
+[2026-08-11 12:47:06] [35mhttp[39m: [35mOPTIONS /api/incidents/6a75c025557f8ce99cb64629/activities 204 0 - 0.194 ms[39m
+[2026-08-11 12:47:06] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.152 ms[39m
+[2026-08-11 12:47:06] [35mhttp[39m: [35mOPTIONS /api/incidents/6a75c025557f8ce99cb64629 204 0 - 0.085 ms[39m
+[2026-08-11 12:47:06] [35mhttp[39m: [35mOPTIONS /api/incidents/6a75c025557f8ce99cb64629/comments 204 0 - 0.078 ms[39m
+[2026-08-11 12:47:06] [35mhttp[39m: [35mOPTIONS /api/incidents/6a75c025557f8ce99cb64629/activities 204 0 - 0.098 ms[39m
+[2026-08-11 12:47:06] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 2.665 ms[39m
+[2026-08-11 12:47:06] [37mdebug[39m: [37mFetching activity logs for incident: 6a75c025557f8ce99cb64629[39m
+[2026-08-11 12:47:06] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.048 ms[39m
+[2026-08-11 12:47:06] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 2.817 ms[39m
+[2026-08-11 12:47:06] [35mhttp[39m: [35mGET /api/incidents/6a75c025557f8ce99cb64629/comments 200 2 - 24.093 ms[39m
+[2026-08-11 12:47:06] [35mhttp[39m: [35mGET /api/incidents/6a75c025557f8ce99cb64629/activities 200 318 - 27.499 ms[39m
+[2026-08-11 12:47:06] [35mhttp[39m: [35mGET /api/incidents/6a75c025557f8ce99cb64629 200 721 - 33.610 ms[39m
+[2026-08-11 12:47:06] [35mhttp[39m: [35mGET /api/users 200 2878 - 10.997 ms[39m
+[2026-08-11 12:47:06] [35mhttp[39m: [35mGET /api/incidents/6a75c025557f8ce99cb64629/comments 304 - - 14.271 ms[39m
+[2026-08-11 12:47:06] [37mdebug[39m: [37mFetching activity logs for incident: 6a75c025557f8ce99cb64629[39m
+[2026-08-11 12:47:06] [35mhttp[39m: [35mGET /api/incidents/6a75c025557f8ce99cb64629 304 - - 12.973 ms[39m
+[2026-08-11 12:47:06] [35mhttp[39m: [35mGET /api/incidents/6a75c025557f8ce99cb64629/activities 304 - - 17.683 ms[39m
+[2026-08-11 12:47:06] [35mhttp[39m: [35mGET /api/users 304 - - 7.987 ms[39m
+[2026-08-11 12:47:12] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.111 ms[39m
+[2026-08-11 12:47:12] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.070 ms[39m
+[2026-08-11 12:47:12] [35mhttp[39m: [35mGET /api/incidents 304 - - 14.762 ms[39m
+[2026-08-11 12:47:12] [35mhttp[39m: [35mGET /api/incidents 304 - - 12.450 ms[39m
+[2026-08-11 12:47:19] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.126 ms[39m
+[2026-08-11 12:47:19] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.104 ms[39m
+[2026-08-11 12:47:19] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.113 ms[39m
+[2026-08-11 12:47:19] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.090 ms[39m
+[2026-08-11 12:47:19] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 3.047 ms[39m
+[2026-08-11 12:47:19] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 200 7741 - 12.915 ms[39m
+[2026-08-11 12:47:19] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 0.334 ms[39m
+[2026-08-11 12:47:19] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.150 ms[39m
+[2026-08-11 12:47:19] [35mhttp[39m: [35mGET /api/users 304 - - 6.475 ms[39m
+[2026-08-11 12:47:19] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 11.590 ms[39m
+[2026-08-11 12:47:19] [35mhttp[39m: [35mGET /api/users 304 - - 7.494 ms[39m
+[2026-08-11 12:47:44] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.110 ms[39m
+[2026-08-11 12:47:44] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.103 ms[39m
+[2026-08-11 12:47:44] [35mhttp[39m: [35mGET /api/incidents 304 - - 6.715 ms[39m
+[2026-08-11 12:47:44] [35mhttp[39m: [35mGET /api/incidents 304 - - 9.351 ms[39m
+[2026-08-11 12:47:54] [35mhttp[39m: [35mOPTIONS /api/incidents/6a72c5637cb9bd5c75ceacb6 204 0 - 0.170 ms[39m
+[2026-08-11 12:47:54] [35mhttp[39m: [35mOPTIONS /api/incidents/6a72c5637cb9bd5c75ceacb6/comments 204 0 - 0.123 ms[39m
+[2026-08-11 12:47:54] [35mhttp[39m: [35mOPTIONS /api/incidents/6a72c5637cb9bd5c75ceacb6/activities 204 0 - 0.138 ms[39m
+[2026-08-11 12:47:54] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.196 ms[39m
+[2026-08-11 12:47:54] [35mhttp[39m: [35mOPTIONS /api/incidents/6a72c5637cb9bd5c75ceacb6 204 0 - 0.161 ms[39m
+[2026-08-11 12:47:54] [35mhttp[39m: [35mOPTIONS /api/incidents/6a72c5637cb9bd5c75ceacb6/comments 204 0 - 0.146 ms[39m
+[2026-08-11 12:47:54] [35mhttp[39m: [35mOPTIONS /api/incidents/6a72c5637cb9bd5c75ceacb6/activities 204 0 - 0.231 ms[39m
+[2026-08-11 12:47:54] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.177 ms[39m
+[2026-08-11 12:47:54] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 2.985 ms[39m
+[2026-08-11 12:47:54] [37mdebug[39m: [37mFetching activity logs for incident: 6a72c5637cb9bd5c75ceacb6[39m
+[2026-08-11 12:47:54] [35mhttp[39m: [35mGET /api/incidents/6a72c5637cb9bd5c75ceacb6 304 - - 21.521 ms[39m
+[2026-08-11 12:47:54] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 1.735 ms[39m
+[2026-08-11 12:47:54] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.131 ms[39m
+[2026-08-11 12:47:54] [35mhttp[39m: [35mGET /api/incidents/6a72c5637cb9bd5c75ceacb6/comments 304 - - 28.424 ms[39m
+[2026-08-11 12:47:54] [35mhttp[39m: [35mGET /api/incidents/6a72c5637cb9bd5c75ceacb6/activities 304 - - 29.970 ms[39m
+[2026-08-11 12:47:54] [35mhttp[39m: [35mGET /api/users 304 - - 10.271 ms[39m
+[2026-08-11 12:47:54] [35mhttp[39m: [35mGET /api/incidents/6a72c5637cb9bd5c75ceacb6 304 - - 18.860 ms[39m
+[2026-08-11 12:47:54] [35mhttp[39m: [35mGET /api/incidents/6a72c5637cb9bd5c75ceacb6/comments 304 - - 15.321 ms[39m
+[2026-08-11 12:47:54] [35mhttp[39m: [35mGET /api/users 304 - - 5.638 ms[39m
+[2026-08-11 12:47:54] [37mdebug[39m: [37mFetching activity logs for incident: 6a72c5637cb9bd5c75ceacb6[39m
+[2026-08-11 12:47:54] [35mhttp[39m: [35mGET /api/incidents/6a72c5637cb9bd5c75ceacb6/activities 304 - - 22.172 ms[39m
+[2026-08-11 12:47:58] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.125 ms[39m
+[2026-08-11 12:47:58] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.078 ms[39m
+[2026-08-11 12:47:58] [35mhttp[39m: [35mGET /api/incidents 304 - - 8.415 ms[39m
+[2026-08-11 12:47:58] [35mhttp[39m: [35mGET /api/incidents 304 - - 9.753 ms[39m
+[2026-08-11 12:48:01] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.136 ms[39m
+[2026-08-11 12:48:01] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.118 ms[39m
+[2026-08-11 12:48:01] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.094 ms[39m
+[2026-08-11 12:48:01] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.060 ms[39m
+[2026-08-11 12:48:01] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 1.546 ms[39m
+[2026-08-11 12:48:01] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 9.231 ms[39m
+[2026-08-11 12:48:01] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 0.373 ms[39m
+[2026-08-11 12:48:01] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.077 ms[39m
+[2026-08-11 12:48:01] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 9.614 ms[39m
+[2026-08-11 12:48:01] [35mhttp[39m: [35mGET /api/users 304 - - 7.775 ms[39m
+[2026-08-11 12:48:01] [35mhttp[39m: [35mGET /api/users 304 - - 3.336 ms[39m
+[2026-08-11 12:48:27] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.116 ms[39m
+[2026-08-11 12:48:27] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.067 ms[39m
+[2026-08-11 12:48:27] [35mhttp[39m: [35mGET /api/users 304 - - 5.884 ms[39m
+[2026-08-11 12:48:27] [35mhttp[39m: [35mGET /api/users 304 - - 4.484 ms[39m
+[2026-08-11 12:48:30] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.146 ms[39m
+[2026-08-11 12:48:30] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.114 ms[39m
+[2026-08-11 12:48:30] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.204 ms[39m
+[2026-08-11 12:48:30] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.092 ms[39m
+[2026-08-11 12:48:30] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 2.479 ms[39m
+[2026-08-11 12:48:30] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 14.445 ms[39m
+[2026-08-11 12:48:30] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 0.361 ms[39m
+[2026-08-11 12:48:30] [35mhttp[39m: [35mGET /api/users 304 - - 6.480 ms[39m
+[2026-08-11 12:48:30] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 11.454 ms[39m
+[2026-08-11 12:48:30] [35mhttp[39m: [35mGET /api/users 304 - - 3.973 ms[39m
+[2026-08-11 12:48:37] [35mhttp[39m: [35mOPTIONS /api/incidents/6a76ccfd7f75805ec783dcdf 204 0 - 0.119 ms[39m
+[2026-08-11 12:48:37] [35mhttp[39m: [35mOPTIONS /api/incidents/6a76ccfd7f75805ec783dcdf/comments 204 0 - 0.148 ms[39m
+[2026-08-11 12:48:37] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.068 ms[39m
+[2026-08-11 12:48:37] [35mhttp[39m: [35mOPTIONS /api/incidents/6a76ccfd7f75805ec783dcdf/activities 204 0 - 0.062 ms[39m
+[2026-08-11 12:48:37] [35mhttp[39m: [35mOPTIONS /api/incidents/6a76ccfd7f75805ec783dcdf 204 0 - 0.058 ms[39m
+[2026-08-11 12:48:37] [35mhttp[39m: [35mOPTIONS /api/incidents/6a76ccfd7f75805ec783dcdf/comments 204 0 - 0.132 ms[39m
+[2026-08-11 12:48:37] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 0.316 ms[39m
+[2026-08-11 12:48:37] [37mdebug[39m: [37mFetching activity logs for incident: 6a76ccfd7f75805ec783dcdf[39m
+[2026-08-11 12:48:37] [35mhttp[39m: [35mGET /api/incidents/6a76ccfd7f75805ec783dcdf 304 - - 14.861 ms[39m
+[2026-08-11 12:48:37] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 1.761 ms[39m
+[2026-08-11 12:48:37] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.048 ms[39m
+[2026-08-11 12:48:37] [35mhttp[39m: [35mGET /api/incidents/6a76ccfd7f75805ec783dcdf/comments 304 - - 20.902 ms[39m
+[2026-08-11 12:48:37] [35mhttp[39m: [35mGET /api/incidents/6a76ccfd7f75805ec783dcdf/activities 304 - - 21.685 ms[39m
+[2026-08-11 12:48:37] [35mhttp[39m: [35mGET /api/users 304 - - 8.891 ms[39m
+[2026-08-11 12:48:37] [35mhttp[39m: [35mGET /api/incidents/6a76ccfd7f75805ec783dcdf 304 - - 14.678 ms[39m
+[2026-08-11 12:48:37] [37mdebug[39m: [37mFetching activity logs for incident: 6a76ccfd7f75805ec783dcdf[39m
+[2026-08-11 12:48:37] [35mhttp[39m: [35mGET /api/incidents/6a76ccfd7f75805ec783dcdf/comments 304 - - 16.206 ms[39m
+[2026-08-11 12:48:37] [35mhttp[39m: [35mGET /api/users 304 - - 7.411 ms[39m
+[2026-08-11 12:48:37] [35mhttp[39m: [35mGET /api/incidents/6a76ccfd7f75805ec783dcdf/activities 304 - - 17.393 ms[39m
+[2026-08-11 12:48:57] [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.272 ms[39m
+[2026-08-11 12:48:57] [33mwarn[39m: [33mFailed login attempt for email: 124012453456@gmail.com (User not found)[39m
+[2026-08-11 12:48:57] [31merror[39m: [31m401 - Invalid email or password - /api/auth/login - POST - ::1[39m
+[2026-08-11 12:48:57] [35mhttp[39m: [35mPOST /api/auth/login 401 55 - 6.568 ms[39m
+[2026-08-11 12:49:06] [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.197 ms[39m
+[2026-08-11 12:49:07] [37mdebug[39m: [37mUser logged in successfully: 6a71937b7b3cf23e1cd0dd56 | Role: End User[39m
+[2026-08-11 12:49:07] [35mhttp[39m: [35mPOST /api/auth/login 200 355 - 172.032 ms[39m
+[2026-08-11 12:49:07] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.230 ms[39m
+[2026-08-11 12:49:07] [35mhttp[39m: [35mGET /api/auth/me 200 290 - 5.514 ms[39m
+[2026-08-11 12:49:07] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.270 ms[39m
+[2026-08-11 12:49:07] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.116 ms[39m
+[2026-08-11 12:49:07] [35mhttp[39m: [35mGET /api/incidents 200 4130 - 16.705 ms[39m
+[2026-08-11 12:49:07] [35mhttp[39m: [35mGET /api/incidents 304 - - 12.519 ms[39m
+[2026-08-11 12:49:26] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.212 ms[39m
+[2026-08-11 12:49:26] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.097 ms[39m
+[2026-08-11 12:49:26] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 200 4130 - 23.512 ms[39m
+[2026-08-11 12:49:26] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 14.404 ms[39m
+[2026-08-11 12:49:38] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.164 ms[39m
+[2026-08-11 12:49:38] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.139 ms[39m
+[2026-08-11 12:49:38] [35mhttp[39m: [35mGET /api/incidents 304 - - 14.439 ms[39m
+[2026-08-11 12:49:38] [35mhttp[39m: [35mGET /api/incidents 304 - - 13.712 ms[39m
+[2026-08-11 12:50:32] [35mhttp[39m: [35mOPTIONS /api/categories 204 0 - 0.198 ms[39m
+[2026-08-11 12:50:32] [35mhttp[39m: [35mOPTIONS /api/categories 204 0 - 0.181 ms[39m
+[2026-08-11 12:50:32] [35mhttp[39m: [35mGET /api/categories 304 - - 4.474 ms[39m
+[2026-08-11 12:50:32] [35mhttp[39m: [35mGET /api/categories 304 - - 23.413 ms[39m
+[2026-08-11 12:50:34] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.215 ms[39m
+[2026-08-11 12:50:34] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.144 ms[39m
+[2026-08-11 12:50:34] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 21.751 ms[39m
+[2026-08-11 12:50:34] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 16.229 ms[39m
+[2026-08-11 12:50:38] [35mhttp[39m: [35mOPTIONS /api/incidents/export/csv?all=true 204 0 - 0.204 ms[39m
+[2026-08-11 12:50:38] [35mhttp[39m: [35mGET /api/incidents/export/csv?all=true 403 65 - 6.242 ms[39m
+[2026-08-11 12:50:58] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.191 ms[39m
+[2026-08-11 12:50:58] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.145 ms[39m
+[2026-08-11 12:50:58] [35mhttp[39m: [35mGET /api/incidents 304 - - 17.575 ms[39m
+[2026-08-11 12:50:58] [35mhttp[39m: [35mGET /api/incidents 304 - - 14.014 ms[39m
+[2026-08-11 12:51:17] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.206 ms[39m
+[2026-08-11 12:51:17] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.148 ms[39m
+[2026-08-11 12:51:17] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 18.064 ms[39m
+[2026-08-11 12:51:17] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 15.321 ms[39m
+[2026-08-11 13:00:00] [32minfo[39m: [32m[Escalation Job] Running SLA escalation check...[39m
+[2026-08-11 13:00:00] [32minfo[39m: [32m[Escalation] No overdue incidents to escalate.[39m
+[2026-08-11 13:00:00] [32minfo[39m: [32m[Escalation Job] Done. Escalated: 0[39m
+[2026-08-11 13:03:31] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.232 ms[39m
+[2026-08-11 13:03:31] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.240 ms[39m
+[2026-08-11 13:03:31] [35mhttp[39m: [35mGET /api/incidents 304 - - 15.497 ms[39m
+[2026-08-11 13:03:31] [35mhttp[39m: [35mGET /api/incidents 304 - - 11.691 ms[39m
+[2026-08-11 13:03:43] [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.239 ms[39m
+[2026-08-11 13:03:44] [37mdebug[39m: [37mUser logged in successfully: 6a718a9b2f4ee61ace65b8a7 | Role: Admin[39m
+[2026-08-11 13:03:44] [35mhttp[39m: [35mPOST /api/auth/login 200 356 - 155.401 ms[39m
+[2026-08-11 13:03:44] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.300 ms[39m
+[2026-08-11 13:03:44] [35mhttp[39m: [35mGET /api/auth/me 200 295 - 3.448 ms[39m
+[2026-08-11 13:03:44] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.258 ms[39m
+[2026-08-11 13:03:44] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.163 ms[39m
+[2026-08-11 13:03:44] [35mhttp[39m: [35mGET /api/incidents 200 7741 - 14.493 ms[39m
+[2026-08-11 13:03:44] [35mhttp[39m: [35mGET /api/incidents 304 - - 16.664 ms[39m
+[2026-08-11 13:08:59] [32minfo[39m: [32mServer running on port 5000[39m
+[2026-08-11 13:08:59] [32minfo[39m: [32mSwagger API Documentation live at http://localhost:5000/api-docs[39m
+[2026-08-11 13:08:59] [32minfo[39m: [32m[Escalation Job] Scheduler initialized — running every 15 minutes.[39m
+[2026-08-11 13:08:59] [32minfo[39m: [32mMongoDB Connected: 127.0.0.1[39m
+[2026-08-11 14:06:59] [32minfo[39m: [32mServer running on port 5000[39m
+[2026-08-11 14:06:59] [32minfo[39m: [32mSwagger API Documentation live at http://localhost:5000/api-docs[39m
+[2026-08-11 14:06:59] [32minfo[39m: [32m[Escalation Job] Scheduler initialized — running every 15 minutes.[39m
+[2026-08-11 14:06:59] [32minfo[39m: [32mMongoDB Connected: 127.0.0.1[39m
+[2026-08-11 14:15:00] [32minfo[39m: [32m[Escalation Job] Running SLA escalation check...[39m
+[2026-08-11 14:15:05] [32minfo[39m: [32mReal Email Sent to hari@gmail.com | Message ID: <d2b56337-31a4-fa36-6ebf-aa4970fb3db3@gmail.com>[39m
+[2026-08-11 14:15:09] [32minfo[39m: [32mReal Email Sent to rahulrajappan52@gmail.com | Message ID: <6bfb8922-0d1a-12ef-b000-aef57f436912@gmail.com>[39m
+[2026-08-11 14:15:13] [32minfo[39m: [32mReal Email Sent to sooriya@gmail.com | Message ID: <487afd06-de56-8f39-feb2-572666594139@gmail.com>[39m
+[2026-08-11 14:15:18] [32minfo[39m: [32mReal Email Sent to rahulrajappan52@gmail.com | Message ID: <8b42494f-8306-a50d-8235-b7f32f612f72@gmail.com>[39m
+[2026-08-11 14:15:22] [32minfo[39m: [32mReal Email Sent to hari@gmail.com | Message ID: <a3b52521-eda7-381f-933e-9e17d781046a@gmail.com>[39m
+[2026-08-11 14:15:27] [32minfo[39m: [32mReal Email Sent to rahulrajappan52@gmail.com | Message ID: <4d23728a-f412-5d82-7712-73d225121e08@gmail.com>[39m
+[2026-08-11 14:15:31] [32minfo[39m: [32mReal Email Sent to sam@gmail.com | Message ID: <71f2d345-c5c4-6aec-08d8-c9171fd8c873@gmail.com>[39m
+[2026-08-11 14:15:35] [32minfo[39m: [32mReal Email Sent to rahulrajappan52@gmail.com | Message ID: <aaf20115-4b14-68cf-7f2c-3980cf4c795a@gmail.com>[39m
+[2026-08-11 14:15:39] [32minfo[39m: [32mReal Email Sent to rajappanofficial@gmail.com | Message ID: <f2d866d9-8e91-02fa-1767-4a5a9e5a3988@gmail.com>[39m
+[2026-08-11 14:15:43] [32minfo[39m: [32mReal Email Sent to rahulrajappan52@gmail.com | Message ID: <72564b35-50cc-7ac9-4fd2-61d75cdc5b59@gmail.com>[39m
+[2026-08-11 14:15:47] [32minfo[39m: [32mReal Email Sent to sam@gmail.com | Message ID: <b45b627d-863c-b9b2-10b4-3d1237990128@gmail.com>[39m
+[2026-08-11 14:15:51] [32minfo[39m: [32mReal Email Sent to rahulrajappan52@gmail.com | Message ID: <6c45fc81-57c3-f812-f31f-2670a8a596bc@gmail.com>[39m
+[2026-08-11 14:15:51] [32minfo[39m: [32m[Escalation] Escalated 6 overdue incident(s).[39m
+[2026-08-11 14:15:51] [32minfo[39m: [32m[Escalation Job] Done. Escalated: 6[39m
+[2026-08-11 14:30:00] [32minfo[39m: [32m[Escalation Job] Running SLA escalation check...[39m
+[2026-08-11 14:30:00] [32minfo[39m: [32m[Escalation] No overdue incidents to escalate.[39m
+[2026-08-11 14:30:00] [32minfo[39m: [32m[Escalation Job] Done. Escalated: 0[39m
+[2026-08-11 14:34:51] [35mhttp[39m: [35mGET /health 404 145 - 10.456 ms[39m
+[2026-08-11 14:37:19] [35mhttp[39m: [35mGET /health/ 404 146 - 1.491 ms[39m
+[2026-08-11 14:38:19] [35mhttp[39m: [35mGET /health/ 404 146 - 0.680 ms[39m
+[2026-08-11 14:38:44] [35mhttp[39m: [35mGET /health 404 145 - 0.671 ms[39m
+[2026-08-11 14:39:45] [35mhttp[39m: [35mGET /api-docs/ 304 - - 12.810 ms[39m
+[2026-08-11 14:39:45] [35mhttp[39m: [35mGET /api-docs/swagger-ui.css 304 - - 8.644 ms[39m
+[2026-08-11 14:39:45] [35mhttp[39m: [35mGET /api-docs/swagger-ui-bundle.js 304 - - 13.795 ms[39m
+[2026-08-11 14:39:45] [35mhttp[39m: [35mGET /api-docs/swagger-ui-init.js 304 - - 1.141 ms[39m
+[2026-08-11 14:39:45] [35mhttp[39m: [35mGET /api-docs/swagger-ui-standalone-preset.js 304 - - 3.217 ms[39m
+[2026-08-11 14:39:45] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 1.313 ms[39m
+[2026-08-11 14:39:45] [35mhttp[39m: [35mGET /api-docs/swagger-ui.css.map 200 279978 - 26.396 ms[39m
+[2026-08-11 14:42:45] [35mhttp[39m: [35mGET /health 404 145 - 14.360 ms[39m
+[2026-08-11 14:43:43] [35mhttp[39m: [35mGET /api/health 404 149 - 0.577 ms[39m
+[2026-08-11 14:44:24] [35mhttp[39m: [35mGET /api/health 404 149 - 0.857 ms[39m
+[2026-08-11 14:45:00] [32minfo[39m: [32m[Escalation Job] Running SLA escalation check...[39m
+[2026-08-11 14:45:00] [32minfo[39m: [32m[Escalation] No overdue incidents to escalate.[39m
+[2026-08-11 14:45:00] [32minfo[39m: [32m[Escalation Job] Done. Escalated: 0[39m
+[2026-08-11 14:47:35] [32minfo[39m: [32mServer running on port 5000[39m
+[2026-08-11 14:47:35] [32minfo[39m: [32mSwagger API Documentation live at http://localhost:5000/api-docs[39m
+[2026-08-11 14:47:35] [32minfo[39m: [32m[Escalation Job] Scheduler initialized — running every 15 minutes.[39m
+[2026-08-11 14:47:35] [32minfo[39m: [32mMongoDB Connected: 127.0.0.1[39m
+[2026-08-11 14:47:41] [35mhttp[39m: [35mGET /api/health 404 149 - 7.371 ms[39m
+[2026-08-11 14:47:45] [35mhttp[39m: [35mGET /api/health 404 149 - 1.384 ms[39m
+[2026-08-11 14:47:45] [35mhttp[39m: [35mGET /api/health 404 149 - 0.895 ms[39m
+[2026-08-11 14:47:45] [35mhttp[39m: [35mGET /api/health 404 149 - 0.865 ms[39m
+[2026-08-11 14:47:45] [35mhttp[39m: [35mGET /api/health 404 149 - 0.783 ms[39m
+[2026-08-11 14:49:25] [32minfo[39m: [32mServer running on port 5000[39m
+[2026-08-11 14:49:25] [32minfo[39m: [32mSwagger API Documentation live at http://localhost:5000/api-docs[39m
+[2026-08-11 14:49:25] [32minfo[39m: [32m[Escalation Job] Scheduler initialized — running every 15 minutes.[39m
+[2026-08-11 14:49:25] [32minfo[39m: [32mMongoDB Connected: 127.0.0.1[39m
+[2026-08-11 14:49:51] [35mhttp[39m: [35mGET /api/health 200 158 - 10.558 ms[39m
+[2026-08-11 14:49:51] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 4.127 ms[39m
+[2026-08-11 14:49:51] [35mhttp[39m: [35mGET /favicon.ico 404 150 - 1.644 ms[39m
+[2026-08-11 14:51:59] [32minfo[39m: [32mServer running on port 5000[39m
+[2026-08-11 14:51:59] [32minfo[39m: [32mSwagger API Documentation live at http://localhost:5000/api-docs[39m
+[2026-08-11 14:51:59] [32minfo[39m: [32m[Escalation Job] Scheduler initialized — running every 15 minutes.[39m
+[2026-08-11 14:51:59] [32minfo[39m: [32mMongoDB Connected: 127.0.0.1[39m
+[2026-08-11 14:52:05] [35mhttp[39m: [35mGET /api/health 200 158 - 10.280 ms[39m
+[2026-08-11 14:52:05] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 5.216 ms[39m
+[2026-08-11 14:52:27] [35mhttp[39m: [35mGET /api/health 200 158 - 1.206 ms[39m
+[2026-08-11 14:52:27] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 1.741 ms[39m
+[2026-08-11 14:52:43] [35mhttp[39m: [35mGET /api/health 200 158 - 2.413 ms[39m
+[2026-08-11 14:52:43] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 1.381 ms[39m
+[2026-08-11 14:52:46] [35mhttp[39m: [35mGET /api/health 200 158 - 0.900 ms[39m
+[2026-08-11 14:52:46] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 0.933 ms[39m
+[2026-08-11 14:52:47] [35mhttp[39m: [35mGET /api/health 200 158 - 0.818 ms[39m
+[2026-08-11 14:52:47] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 2.607 ms[39m
+[2026-08-11 14:52:47] [35mhttp[39m: [35mGET /api/health 200 158 - 0.763 ms[39m
+[2026-08-11 14:52:47] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 0.632 ms[39m
+[2026-08-11 14:52:47] [35mhttp[39m: [35mGET /api/health 200 158 - 0.718 ms[39m
+[2026-08-11 14:52:47] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 0.628 ms[39m
+[2026-08-11 14:52:47] [35mhttp[39m: [35mGET /api/health 200 158 - 0.814 ms[39m
+[2026-08-11 14:52:47] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 0.759 ms[39m
+[2026-08-11 14:52:47] [35mhttp[39m: [35mGET /api/health 200 158 - 1.160 ms[39m
+[2026-08-11 14:52:47] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 1.023 ms[39m
+[2026-08-11 14:52:48] [35mhttp[39m: [35mGET /api/health 200 158 - 0.697 ms[39m
+[2026-08-11 14:52:48] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 1.126 ms[39m
+[2026-08-11 14:52:48] [35mhttp[39m: [35mGET /api/health 200 158 - 0.679 ms[39m
+[2026-08-11 14:52:48] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 0.634 ms[39m
+[2026-08-11 14:52:48] [35mhttp[39m: [35mGET /api/health 200 158 - 0.782 ms[39m
+[2026-08-11 14:52:48] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 0.591 ms[39m
+[2026-08-11 14:52:48] [35mhttp[39m: [35mGET /api/health 200 158 - 0.527 ms[39m
+[2026-08-11 14:52:48] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 0.473 ms[39m
+[2026-08-11 14:52:48] [35mhttp[39m: [35mGET /api/health 200 158 - 0.451 ms[39m
+[2026-08-11 14:52:48] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 0.447 ms[39m
+[2026-08-11 14:52:48] [35mhttp[39m: [35mGET /api/health 200 158 - 0.554 ms[39m
+[2026-08-11 14:52:48] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 0.572 ms[39m
+[2026-08-11 14:52:48] [35mhttp[39m: [35mGET /api/health 200 158 - 0.494 ms[39m
+[2026-08-11 14:52:49] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 0.675 ms[39m
+[2026-08-11 14:52:49] [35mhttp[39m: [35mGET /api/health 200 158 - 0.488 ms[39m
+[2026-08-11 14:52:49] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 0.708 ms[39m
+[2026-08-11 14:52:49] [35mhttp[39m: [35mGET /api/health 200 158 - 0.535 ms[39m
+[2026-08-11 14:52:49] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 0.597 ms[39m
+[2026-08-11 14:52:49] [35mhttp[39m: [35mGET /api/health 200 158 - 0.678 ms[39m
+[2026-08-11 14:52:49] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 0.472 ms[39m
+[2026-08-11 14:52:49] [35mhttp[39m: [35mGET /api/health 200 158 - 0.363 ms[39m
+[2026-08-11 14:52:49] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 0.422 ms[39m
+[2026-08-11 14:52:49] [35mhttp[39m: [35mGET /api/health 200 158 - 0.558 ms[39m
+[2026-08-11 14:52:49] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 1.090 ms[39m
+[2026-08-11 14:52:49] [35mhttp[39m: [35mGET /api/health 200 158 - 0.440 ms[39m
+[2026-08-11 14:52:50] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 0.537 ms[39m
+[2026-08-11 14:52:50] [35mhttp[39m: [35mGET /api/health 200 158 - 0.538 ms[39m
+[2026-08-11 14:52:50] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 0.423 ms[39m
+[2026-08-11 14:52:50] [35mhttp[39m: [35mGET /api/health 200 158 - 0.561 ms[39m
+[2026-08-11 14:52:50] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 0.319 ms[39m
+[2026-08-11 14:52:50] [35mhttp[39m: [35mGET /api/health 200 158 - 0.457 ms[39m
+[2026-08-11 14:52:50] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 0.346 ms[39m
+[2026-08-11 14:52:50] [35mhttp[39m: [35mGET /api/health 200 158 - 0.509 ms[39m
+[2026-08-11 14:52:50] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 0.637 ms[39m
+[2026-08-11 14:53:04] [32minfo[39m: [32mServer running on port 5000[39m
+[2026-08-11 14:53:04] [32minfo[39m: [32mSwagger API Documentation live at http://localhost:5000/api-docs[39m
+[2026-08-11 14:53:04] [32minfo[39m: [32m[Escalation Job] Scheduler initialized — running every 15 minutes.[39m
+[2026-08-11 14:53:05] [32minfo[39m: [32mMongoDB Connected: 127.0.0.1[39m
+[2026-08-11 14:53:14] [35mhttp[39m: [35mGET /api/health 200 158 - 10.381 ms[39m
+[2026-08-11 14:53:14] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 3.653 ms[39m
+[2026-08-11 14:53:15] [35mhttp[39m: [35mGET /api/health 200 158 - 1.270 ms[39m
+[2026-08-11 14:53:15] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 0.929 ms[39m
+[2026-08-11 14:53:15] [35mhttp[39m: [35mGET /api/health 200 158 - 0.820 ms[39m
+[2026-08-11 14:53:15] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 0.931 ms[39m
+[2026-08-11 14:53:16] [35mhttp[39m: [35mGET /api/health 200 158 - 0.725 ms[39m
+[2026-08-11 14:53:16] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 4.829 ms[39m
+[2026-08-11 14:53:50] [32minfo[39m: [32mServer running on port 5000[39m
+[2026-08-11 14:53:50] [32minfo[39m: [32mSwagger API Documentation live at http://localhost:5000/api-docs[39m
+[2026-08-11 14:53:50] [32minfo[39m: [32m[Escalation Job] Scheduler initialized — running every 15 minutes.[39m
+[2026-08-11 14:53:50] [32minfo[39m: [32mMongoDB Connected: 127.0.0.1[39m
+[2026-08-11 14:54:07] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 2.859 ms[39m
+[2026-08-11 14:54:07] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.235 ms[39m
+[2026-08-11 14:54:07] [35mhttp[39m: [35mGET /api/auth/me 304 - - 71.175 ms[39m
+[2026-08-11 14:54:07] [35mhttp[39m: [35mGET /api/auth/me 304 - - 5.470 ms[39m
+[2026-08-11 14:54:10] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.443 ms[39m
+[2026-08-11 14:54:10] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.195 ms[39m
+[2026-08-11 14:54:10] [35mhttp[39m: [35mGET /api/incidents 200 7867 - 51.379 ms[39m
+[2026-08-11 14:54:10] [35mhttp[39m: [35mGET /api/incidents 304 - - 25.908 ms[39m
+[2026-08-11 14:54:31] [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.397 ms[39m
+[2026-08-11 14:54:31] [37mdebug[39m: [37mUser logged in successfully: 6a718a9b2f4ee61ace65b8a7 | Role: Admin[39m
+[2026-08-11 14:54:31] [35mhttp[39m: [35mPOST /api/auth/login 200 356 - 347.069 ms[39m
+[2026-08-11 14:54:31] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.300 ms[39m
+[2026-08-11 14:54:31] [35mhttp[39m: [35mGET /api/auth/me 304 - - 4.953 ms[39m
+[2026-08-11 14:54:31] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.352 ms[39m
+[2026-08-11 14:54:31] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.263 ms[39m
+[2026-08-11 14:54:31] [35mhttp[39m: [35mGET /api/incidents 304 - - 22.462 ms[39m
+[2026-08-11 14:54:31] [35mhttp[39m: [35mGET /api/incidents 304 - - 19.757 ms[39m
+[2026-08-11 14:54:42] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.257 ms[39m
+[2026-08-11 14:54:42] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.301 ms[39m
+[2026-08-11 14:54:42] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.159 ms[39m
+[2026-08-11 14:54:42] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.296 ms[39m
+[2026-08-11 14:54:42] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 2.466 ms[39m
+[2026-08-11 14:54:42] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 1.987 ms[39m
+[2026-08-11 14:54:42] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 200 7867 - 26.330 ms[39m
+[2026-08-11 14:54:42] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.186 ms[39m
+[2026-08-11 14:54:42] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.245 ms[39m
+[2026-08-11 14:54:42] [35mhttp[39m: [35mGET /api/users 304 - - 15.234 ms[39m
+[2026-08-11 14:54:42] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 27.272 ms[39m
+[2026-08-11 14:54:42] [35mhttp[39m: [35mGET /api/users 304 - - 15.979 ms[39m
+[2026-08-11 14:54:44] [35mhttp[39m: [35mGET /api/users 304 - - 7.898 ms[39m
+[2026-08-11 14:54:44] [35mhttp[39m: [35mGET /api/users 304 - - 9.649 ms[39m
+[2026-08-11 14:54:46] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 0.818 ms[39m
+[2026-08-11 14:54:46] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 0.593 ms[39m
+[2026-08-11 14:54:46] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 34.143 ms[39m
+[2026-08-11 14:54:46] [35mhttp[39m: [35mGET /api/users 304 - - 21.916 ms[39m
+[2026-08-11 14:54:46] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 28.099 ms[39m
+[2026-08-11 14:54:46] [35mhttp[39m: [35mGET /api/users 304 - - 16.085 ms[39m
+[2026-08-11 14:56:34] [32minfo[39m: [32mServer running on port 5000[39m
+[2026-08-11 14:56:34] [32minfo[39m: [32mSwagger API Documentation live at http://localhost:5000/api-docs[39m
+[2026-08-11 14:56:34] [32minfo[39m: [32m[Escalation Job] Scheduler initialized — running every 15 minutes.[39m
+[2026-08-11 14:56:34] [32minfo[39m: [32mMongoDB Connected: 127.0.0.1[39m
+[2026-08-11 14:56:45] [35mhttp[39m: [35mGET /api/health 200 158 - 12.672 ms[39m
+[2026-08-11 14:56:45] [35mhttp[39m: [35mGET /.well-known/appspecific/com.chrome.devtools.json 404 187 - 4.313 ms[39m
+[2026-08-11 15:00:00] [32minfo[39m: [32m[Escalation Job] Running SLA escalation check...[39m
+[2026-08-11 15:00:00] [32minfo[39m: [32m[Escalation] No overdue incidents to escalate.[39m
+[2026-08-11 15:00:00] [32minfo[39m: [32m[Escalation Job] Done. Escalated: 0[39m
+[2026-08-11 15:07:56] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.855 ms[39m
+[2026-08-11 15:07:56] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.243 ms[39m
+[2026-08-11 15:07:56] [35mhttp[39m: [35mGET /api/auth/me 304 - - 60.503 ms[39m
+[2026-08-11 15:07:56] [35mhttp[39m: [35mGET /api/auth/me 304 - - 8.417 ms[39m
+[2026-08-11 15:07:57] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.355 ms[39m
+[2026-08-11 15:07:57] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.331 ms[39m
+[2026-08-11 15:07:57] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.333 ms[39m
+[2026-08-11 15:07:57] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.291 ms[39m
+[2026-08-11 15:07:57] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 1.091 ms[39m
+[2026-08-11 15:07:57] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 0.904 ms[39m
+[2026-08-11 15:07:57] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 58.139 ms[39m
+[2026-08-11 15:07:57] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 25.764 ms[39m
+[2026-08-11 15:07:57] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.239 ms[39m
+[2026-08-11 15:07:57] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.243 ms[39m
+[2026-08-11 15:07:57] [35mhttp[39m: [35mGET /api/users 304 - - 10.949 ms[39m
+[2026-08-11 15:07:57] [35mhttp[39m: [35mGET /api/users 304 - - 10.510 ms[39m
+[2026-08-11 15:15:00] [32minfo[39m: [32m[Escalation Job] Running SLA escalation check...[39m
+[2026-08-11 15:15:00] [32minfo[39m: [32m[Escalation] No overdue incidents to escalate.[39m
+[2026-08-11 15:15:00] [32minfo[39m: [32m[Escalation Job] Done. Escalated: 0[39m
+[2026-08-11 15:30:00] [32minfo[39m: [32m[Escalation Job] Running SLA escalation check...[39m
+[2026-08-11 15:30:00] [32minfo[39m: [32m[Escalation] No overdue incidents to escalate.[39m
+[2026-08-11 15:30:00] [32minfo[39m: [32m[Escalation Job] Done. Escalated: 0[39m
+[2026-08-11 15:35:59] [32minfo[39m: [32mServer running on port 5000[39m
+[2026-08-11 15:35:59] [32minfo[39m: [32mSwagger API Documentation live at http://localhost:5000/api-docs[39m
+[2026-08-11 15:35:59] [32minfo[39m: [32m[Escalation Job] Scheduler initialized — running every 15 minutes.[39m
+[2026-08-11 15:35:59] [32minfo[39m: [32mMongoDB Connected: 127.0.0.1[39m
+[2026-08-11 15:36:07] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 8.766 ms[39m
+[2026-08-11 15:36:07] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.331 ms[39m
+[2026-08-11 15:36:07] [35mhttp[39m: [35mGET /api/auth/me 304 - - 33.699 ms[39m
+[2026-08-11 15:36:07] [35mhttp[39m: [35mGET /api/auth/me 304 - - 6.308 ms[39m
+[2026-08-11 15:36:07] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.597 ms[39m
+[2026-08-11 15:36:07] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.188 ms[39m
+[2026-08-11 15:36:07] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.294 ms[39m
+[2026-08-11 15:36:07] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.288 ms[39m
+[2026-08-11 15:36:07] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 3.694 ms[39m
+[2026-08-11 15:36:07] [31merror[39m: [31m500 - page is not defined - /api/incidents?all=true&scope=all - GET - ::1[39m
+[2026-08-11 15:36:07] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 500 49 - 17.605 ms[39m
+[2026-08-11 15:36:07] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 0.799 ms[39m
+[2026-08-11 15:36:07] [31merror[39m: [31m500 - page is not defined - /api/incidents?all=true&scope=all - GET - ::1[39m
+[2026-08-11 15:36:07] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 500 49 - 7.408 ms[39m
+[2026-08-11 15:36:07] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.274 ms[39m
+[2026-08-11 15:36:07] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.242 ms[39m
+[2026-08-11 15:36:07] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.187 ms[39m
+[2026-08-11 15:36:07] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.247 ms[39m
+[2026-08-11 15:36:07] [31merror[39m: [31m500 - page is not defined - /api/incidents - GET - ::1[39m
+[2026-08-11 15:36:07] [35mhttp[39m: [35mGET /api/incidents 500 49 - 6.784 ms[39m
+[2026-08-11 15:36:07] [35mhttp[39m: [35mGET /api/users 304 - - 19.024 ms[39m
+[2026-08-11 15:36:07] [31merror[39m: [31m500 - page is not defined - /api/incidents - GET - ::1[39m
+[2026-08-11 15:36:07] [35mhttp[39m: [35mGET /api/incidents 500 49 - 5.974 ms[39m
+[2026-08-11 15:36:07] [35mhttp[39m: [35mGET /api/users 304 - - 10.992 ms[39m
+[2026-08-11 15:36:14] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.568 ms[39m
+[2026-08-11 15:36:14] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.193 ms[39m
+[2026-08-11 15:36:14] [35mhttp[39m: [35mGET /api/users 304 - - 13.295 ms[39m
+[2026-08-11 15:36:14] [35mhttp[39m: [35mGET /api/users 304 - - 13.723 ms[39m
+[2026-08-11 15:36:16] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.255 ms[39m
+[2026-08-11 15:36:16] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.195 ms[39m
+[2026-08-11 15:36:16] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.165 ms[39m
+[2026-08-11 15:36:16] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.181 ms[39m
+[2026-08-11 15:36:16] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 0.573 ms[39m
+[2026-08-11 15:36:16] [31merror[39m: [31m500 - page is not defined - /api/incidents?all=true&scope=all - GET - ::1[39m
+[2026-08-11 15:36:16] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 500 49 - 8.509 ms[39m
+[2026-08-11 15:36:16] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 0.589 ms[39m
+[2026-08-11 15:36:17] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.302 ms[39m
+[2026-08-11 15:36:17] [31merror[39m: [31m500 - page is not defined - /api/incidents?all=true&scope=all - GET - ::1[39m
+[2026-08-11 15:36:17] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 500 49 - 43.621 ms[39m
+[2026-08-11 15:36:17] [35mhttp[39m: [35mGET /api/users 304 - - 67.109 ms[39m
+[2026-08-11 15:36:17] [31merror[39m: [31m500 - page is not defined - /api/incidents - GET - ::1[39m
+[2026-08-11 15:36:17] [35mhttp[39m: [35mGET /api/incidents 500 49 - 12.234 ms[39m
+[2026-08-11 15:36:17] [35mhttp[39m: [35mGET /api/users 304 - - 10.851 ms[39m
+[2026-08-11 15:36:17] [31merror[39m: [31m500 - page is not defined - /api/incidents - GET - ::1[39m
+[2026-08-11 15:36:17] [35mhttp[39m: [35mGET /api/incidents 500 49 - 5.114 ms[39m
+[2026-08-11 15:36:18] [31merror[39m: [31m500 - page is not defined - /api/incidents - GET - ::1[39m
+[2026-08-11 15:36:19] [35mhttp[39m: [35mGET /api/incidents 500 49 - 5.104 ms[39m
+[2026-08-11 15:36:19] [31merror[39m: [31m500 - page is not defined - /api/incidents - GET - ::1[39m
+[2026-08-11 15:36:19] [35mhttp[39m: [35mGET /api/incidents 500 49 - 5.385 ms[39m
+[2026-08-11 15:38:09] [32minfo[39m: [32mServer running on port 5000[39m
+[2026-08-11 15:38:09] [32minfo[39m: [32mSwagger API Documentation live at http://localhost:5000/api-docs[39m
+[2026-08-11 15:38:09] [32minfo[39m: [32m[Escalation Job] Scheduler initialized — running every 15 minutes.[39m
+[2026-08-11 15:38:09] [32minfo[39m: [32mMongoDB Connected: 127.0.0.1[39m
+[2026-08-11 15:38:20] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 3.056 ms[39m
+[2026-08-11 15:38:20] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.523 ms[39m
+[2026-08-11 15:38:20] [35mhttp[39m: [35mGET /api/auth/me 304 - - 42.796 ms[39m
+[2026-08-11 15:38:20] [35mhttp[39m: [35mGET /api/auth/me 304 - - 7.263 ms[39m
+[2026-08-11 15:38:20] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.366 ms[39m
+[2026-08-11 15:38:20] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.380 ms[39m
+[2026-08-11 15:38:20] [35mhttp[39m: [35mGET /api/incidents 200 7867 - 57.045 ms[39m
+[2026-08-11 15:38:20] [35mhttp[39m: [35mGET /api/incidents 304 - - 24.666 ms[39m
+[2026-08-11 15:38:23] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.342 ms[39m
+[2026-08-11 15:38:23] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.471 ms[39m
+[2026-08-11 15:38:23] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.276 ms[39m
+[2026-08-11 15:38:23] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.282 ms[39m
+[2026-08-11 15:38:23] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 3.243 ms[39m
+[2026-08-11 15:38:23] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 1.028 ms[39m
+[2026-08-11 15:38:23] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 200 7867 - 35.974 ms[39m
+[2026-08-11 15:38:23] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.280 ms[39m
+[2026-08-11 15:38:23] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.282 ms[39m
+[2026-08-11 15:38:23] [35mhttp[39m: [35mGET /api/users 304 - - 14.378 ms[39m
+[2026-08-11 15:38:23] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 29.423 ms[39m
+[2026-08-11 15:38:23] [35mhttp[39m: [35mGET /api/users 304 - - 16.455 ms[39m
+[2026-08-11 15:45:00] [32minfo[39m: [32m[Escalation Job] Running SLA escalation check...[39m
+[2026-08-11 15:45:00] [32minfo[39m: [32m[Escalation] No overdue incidents to escalate.[39m
+[2026-08-11 15:45:00] [32minfo[39m: [32m[Escalation Job] Done. Escalated: 0[39m
+[2026-08-11 15:49:41] [32minfo[39m: [32mServer running on port 5000[39m
+[2026-08-11 15:49:41] [32minfo[39m: [32mSwagger API Documentation live at http://localhost:5000/api-docs[39m
+[2026-08-11 15:49:41] [32minfo[39m: [32m[Escalation Job] Scheduler initialized — running every 15 minutes.[39m
+[2026-08-11 15:49:41] [32minfo[39m: [32mMongoDB Connected: 127.0.0.1[39m
+[2026-08-11 15:53:11] [35mhttp[39m: [35mOPTIONS /api/incidents/export/csv?all=true 204 0 - 32.205 ms[39m
+[2026-08-11 15:53:12] [35mhttp[39m: [35mGET /api/incidents/export/csv?all=true 200 2399 - 80.857 ms[39m
+[2026-08-11 15:53:15] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.699 ms[39m
+[2026-08-11 15:53:15] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.364 ms[39m
+[2026-08-11 15:53:15] [35mhttp[39m: [35mGET /api/users 304 - - 13.675 ms[39m
+[2026-08-11 15:53:15] [35mhttp[39m: [35mGET /api/users 304 - - 11.170 ms[39m
+[2026-08-11 15:53:18] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.365 ms[39m
+[2026-08-11 15:53:18] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.299 ms[39m
+[2026-08-11 15:53:18] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.305 ms[39m
+[2026-08-11 15:53:18] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.304 ms[39m
+[2026-08-11 15:53:18] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 2.998 ms[39m
+[2026-08-11 15:53:18] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 0.874 ms[39m
+[2026-08-11 15:53:18] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 35.213 ms[39m
+[2026-08-11 15:53:18] [35mhttp[39m: [35mGET /api/users 304 - - 17.566 ms[39m
+[2026-08-11 15:53:18] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 22.286 ms[39m
+[2026-08-11 15:53:18] [35mhttp[39m: [35mGET /api/users 304 - - 20.361 ms[39m
+[2026-08-11 15:53:19] [35mhttp[39m: [35mOPTIONS /api/categories 204 0 - 0.230 ms[39m
+[2026-08-11 15:53:19] [35mhttp[39m: [35mOPTIONS /api/categories 204 0 - 0.421 ms[39m
+[2026-08-11 15:53:19] [35mhttp[39m: [35mGET /api/categories 304 - - 4.275 ms[39m
+[2026-08-11 15:53:19] [35mhttp[39m: [35mGET /api/categories 304 - - 3.790 ms[39m
+[2026-08-11 15:53:23] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 0.813 ms[39m
+[2026-08-11 15:53:23] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 0.994 ms[39m
+[2026-08-11 15:53:23] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.280 ms[39m
+[2026-08-11 15:53:23] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 27.539 ms[39m
+[2026-08-11 15:53:23] [35mhttp[39m: [35mGET /api/users 304 - - 11.843 ms[39m
+[2026-08-11 15:53:23] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 25.124 ms[39m
+[2026-08-11 15:53:23] [35mhttp[39m: [35mGET /api/users 304 - - 17.668 ms[39m
+[2026-08-11 15:53:24] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.291 ms[39m
+[2026-08-11 15:53:24] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.321 ms[39m
+[2026-08-11 15:53:24] [35mhttp[39m: [35mGET /api/incidents 304 - - 16.196 ms[39m
+[2026-08-11 15:53:24] [35mhttp[39m: [35mGET /api/incidents 304 - - 14.598 ms[39m
+[2026-08-11 15:53:36] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.619 ms[39m
+[2026-08-11 15:53:36] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.163 ms[39m
+[2026-08-11 15:53:36] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.163 ms[39m
+[2026-08-11 15:53:36] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.108 ms[39m
+[2026-08-11 15:53:36] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 0.786 ms[39m
+[2026-08-11 15:53:36] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 0.742 ms[39m
+[2026-08-11 15:53:36] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.245 ms[39m
+[2026-08-11 15:53:36] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 27.762 ms[39m
+[2026-08-11 15:53:36] [35mhttp[39m: [35mGET /api/users 304 - - 10.290 ms[39m
+[2026-08-11 15:53:36] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 22.338 ms[39m
+[2026-08-11 15:53:36] [35mhttp[39m: [35mGET /api/users 304 - - 15.458 ms[39m
+[2026-08-11 15:53:59] [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.330 ms[39m
+[2026-08-11 15:54:00] [37mdebug[39m: [37mUser logged in successfully: 6a72deae67fb69131b311a5b | Role: Support Agent[39m
+[2026-08-11 15:54:00] [35mhttp[39m: [35mPOST /api/auth/login 200 371 - 331.191 ms[39m
+[2026-08-11 15:54:00] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.378 ms[39m
+[2026-08-11 15:54:00] [35mhttp[39m: [35mGET /api/auth/me 200 329 - 4.397 ms[39m
+[2026-08-11 15:54:00] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.216 ms[39m
+[2026-08-11 15:54:00] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.235 ms[39m
+[2026-08-11 15:54:00] [35mhttp[39m: [35mGET /api/incidents 200 3687 - 90.387 ms[39m
+[2026-08-11 15:54:00] [35mhttp[39m: [35mGET /api/incidents 304 - - 14.210 ms[39m
+[2026-08-11 15:54:08] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.240 ms[39m
+[2026-08-11 15:54:08] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.132 ms[39m
+[2026-08-11 15:54:08] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 41.373 ms[39m
+[2026-08-11 15:54:08] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 13.188 ms[39m
+[2026-08-11 15:54:26] [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.294 ms[39m
+[2026-08-11 15:54:26] [37mdebug[39m: [37mUser logged in successfully: 6a745a78138d75948ee9e869 | Role: Support Agent[39m
+[2026-08-11 15:54:26] [35mhttp[39m: [35mPOST /api/auth/login 200 357 - 155.949 ms[39m
+[2026-08-11 15:54:26] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.168 ms[39m
+[2026-08-11 15:54:26] [35mhttp[39m: [35mGET /api/auth/me 200 375 - 3.871 ms[39m
+[2026-08-11 15:54:26] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.206 ms[39m
+[2026-08-11 15:54:26] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.220 ms[39m
+[2026-08-11 15:54:26] [35mhttp[39m: [35mGET /api/incidents 200 1183 - 17.368 ms[39m
+[2026-08-11 15:54:27] [35mhttp[39m: [35mGET /api/incidents 304 - - 12.011 ms[39m
+[2026-08-11 15:54:35] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.223 ms[39m
+[2026-08-11 15:54:35] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.163 ms[39m
+[2026-08-11 15:54:35] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 19.715 ms[39m
+[2026-08-11 15:54:35] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 15.194 ms[39m
+[2026-08-11 15:55:03] [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.377 ms[39m
+[2026-08-11 15:55:03] [37mdebug[39m: [37mUser logged in successfully: 6a71937b7b3cf23e1cd0dd56 | Role: End User[39m
+[2026-08-11 15:55:03] [35mhttp[39m: [35mPOST /api/auth/login 200 355 - 154.081 ms[39m
+[2026-08-11 15:55:03] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.234 ms[39m
+[2026-08-11 15:55:03] [35mhttp[39m: [35mGET /api/auth/me 200 290 - 3.660 ms[39m
+[2026-08-11 15:55:03] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.198 ms[39m
+[2026-08-11 15:55:03] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.175 ms[39m
+[2026-08-11 15:55:03] [35mhttp[39m: [35mGET /api/incidents 200 4193 - 14.174 ms[39m
+[2026-08-11 15:55:03] [35mhttp[39m: [35mGET /api/incidents 304 - - 14.698 ms[39m
+[2026-08-11 15:55:07] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.282 ms[39m
+[2026-08-11 15:55:07] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.147 ms[39m
+[2026-08-11 15:55:07] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 200 4193 - 14.201 ms[39m
+[2026-08-11 15:55:07] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 11.223 ms[39m
+[2026-08-11 15:55:12] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.232 ms[39m
+[2026-08-11 15:55:12] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.143 ms[39m
+[2026-08-11 15:55:12] [35mhttp[39m: [35mGET /api/incidents 304 - - 20.818 ms[39m
+[2026-08-11 15:55:13] [35mhttp[39m: [35mGET /api/incidents 304 - - 13.750 ms[39m
+[2026-08-11 15:55:23] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.342 ms[39m
+[2026-08-11 15:55:23] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.133 ms[39m
+[2026-08-11 15:55:23] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 17.313 ms[39m
+[2026-08-11 15:55:23] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 12.606 ms[39m
+[2026-08-11 15:55:36] [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.244 ms[39m
+[2026-08-11 15:55:36] [37mdebug[39m: [37mUser logged in successfully: 6a745a78138d75948ee9e869 | Role: Support Agent[39m
+[2026-08-11 15:55:36] [35mhttp[39m: [35mPOST /api/auth/login 200 357 - 165.526 ms[39m
+[2026-08-11 15:55:36] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.213 ms[39m
+[2026-08-11 15:55:36] [35mhttp[39m: [35mGET /api/auth/me 200 375 - 4.726 ms[39m
+[2026-08-11 15:55:36] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.243 ms[39m
+[2026-08-11 15:55:36] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.216 ms[39m
+[2026-08-11 15:55:36] [35mhttp[39m: [35mGET /api/incidents 200 1183 - 12.266 ms[39m
+[2026-08-11 15:55:36] [35mhttp[39m: [35mGET /api/incidents 304 - - 11.382 ms[39m
+[2026-08-11 15:55:41] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.206 ms[39m
+[2026-08-11 15:55:41] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.184 ms[39m
+[2026-08-11 15:55:41] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 200 7867 - 18.978 ms[39m
+[2026-08-11 15:55:41] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 14.421 ms[39m
+[2026-08-11 15:55:57] [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.299 ms[39m
+[2026-08-11 15:55:57] [37mdebug[39m: [37mUser logged in successfully: 6a745a78138d75948ee9e869 | Role: Support Agent[39m
+[2026-08-11 15:55:57] [35mhttp[39m: [35mPOST /api/auth/login 200 357 - 156.586 ms[39m
+[2026-08-11 15:55:57] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.210 ms[39m
+[2026-08-11 15:55:57] [35mhttp[39m: [35mGET /api/auth/me 304 - - 3.955 ms[39m
+[2026-08-11 15:55:57] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.223 ms[39m
+[2026-08-11 15:55:57] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.183 ms[39m
+[2026-08-11 15:55:57] [35mhttp[39m: [35mGET /api/incidents 304 - - 10.738 ms[39m
+[2026-08-11 15:55:57] [35mhttp[39m: [35mGET /api/incidents 304 - - 11.332 ms[39m
+[2026-08-11 15:56:08] [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.265 ms[39m
+[2026-08-11 15:56:08] [37mdebug[39m: [37mUser logged in successfully: 6a745ab9138d75948ee9e86a | Role: End User[39m
+[2026-08-11 15:56:08] [35mhttp[39m: [35mPOST /api/auth/login 200 350 - 152.652 ms[39m
+[2026-08-11 15:56:08] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.279 ms[39m
+[2026-08-11 15:56:08] [35mhttp[39m: [35mGET /api/auth/me 200 279 - 3.823 ms[39m
+[2026-08-11 15:56:08] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.346 ms[39m
+[2026-08-11 15:56:08] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.172 ms[39m
+[2026-08-11 15:56:08] [35mhttp[39m: [35mGET /api/incidents 200 2 - 7.469 ms[39m
+[2026-08-11 15:56:08] [35mhttp[39m: [35mGET /api/incidents 304 - - 6.899 ms[39m
+[2026-08-11 15:56:14] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.898 ms[39m
+[2026-08-11 15:56:14] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.235 ms[39m
+[2026-08-11 15:56:14] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 200 2 - 8.234 ms[39m
+[2026-08-11 15:56:14] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 5.905 ms[39m
+[2026-08-11 15:56:25] [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.212 ms[39m
+[2026-08-11 15:56:25] [37mdebug[39m: [37mUser logged in successfully: 6a745a4b138d75948ee9e868 | Role: Support Agent[39m
+[2026-08-11 15:56:25] [35mhttp[39m: [35mPOST /api/auth/login 200 365 - 152.137 ms[39m
+[2026-08-11 15:56:25] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.167 ms[39m
+[2026-08-11 15:56:25] [35mhttp[39m: [35mGET /api/auth/me 200 358 - 3.687 ms[39m
+[2026-08-11 15:56:26] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.216 ms[39m
+[2026-08-11 15:56:26] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.185 ms[39m
+[2026-08-11 15:56:26] [35mhttp[39m: [35mGET /api/incidents 200 1782 - 13.070 ms[39m
+[2026-08-11 15:56:26] [35mhttp[39m: [35mGET /api/incidents 304 - - 11.814 ms[39m
+[2026-08-11 15:56:29] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.153 ms[39m
+[2026-08-11 15:56:29] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.109 ms[39m
+[2026-08-11 15:56:29] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 200 7867 - 19.973 ms[39m
+[2026-08-11 15:56:29] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 14.526 ms[39m
+[2026-08-11 15:56:42] [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.306 ms[39m
+[2026-08-11 15:56:42] [37mdebug[39m: [37mUser logged in successfully: 6a72deae67fb69131b311a5b | Role: Support Agent[39m
+[2026-08-11 15:56:42] [35mhttp[39m: [35mPOST /api/auth/login 200 371 - 152.405 ms[39m
+[2026-08-11 15:56:42] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.218 ms[39m
+[2026-08-11 15:56:42] [35mhttp[39m: [35mGET /api/auth/me 200 329 - 4.431 ms[39m
+[2026-08-11 15:56:42] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.258 ms[39m
+[2026-08-11 15:56:42] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.189 ms[39m
+[2026-08-11 15:56:42] [35mhttp[39m: [35mGET /api/incidents 200 3687 - 12.585 ms[39m
+[2026-08-11 15:56:42] [35mhttp[39m: [35mGET /api/incidents 304 - - 11.874 ms[39m
+[2026-08-11 15:56:48] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.196 ms[39m
+[2026-08-11 15:56:48] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.188 ms[39m
+[2026-08-11 15:56:48] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 14.813 ms[39m
+[2026-08-11 15:56:48] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 12.295 ms[39m
+[2026-08-11 15:57:06] [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.229 ms[39m
+[2026-08-11 15:57:06] [37mdebug[39m: [37mUser logged in successfully: 6a718a9b2f4ee61ace65b8a7 | Role: Admin[39m
+[2026-08-11 15:57:06] [35mhttp[39m: [35mPOST /api/auth/login 200 356 - 148.501 ms[39m
+[2026-08-11 15:57:06] [35mhttp[39m: [35mOPTIONS /api/auth/me 204 0 - 0.204 ms[39m
+[2026-08-11 15:57:06] [35mhttp[39m: [35mGET /api/auth/me 200 295 - 3.435 ms[39m
+[2026-08-11 15:57:07] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.253 ms[39m
+[2026-08-11 15:57:07] [35mhttp[39m: [35mOPTIONS /api/incidents 204 0 - 0.182 ms[39m
+[2026-08-11 15:57:07] [35mhttp[39m: [35mGET /api/incidents 200 7867 - 15.609 ms[39m
+[2026-08-11 15:57:07] [35mhttp[39m: [35mGET /api/incidents 304 - - 12.933 ms[39m
+[2026-08-11 15:57:09] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.200 ms[39m
+[2026-08-11 15:57:09] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.168 ms[39m
+[2026-08-11 15:57:09] [35mhttp[39m: [35mOPTIONS /api/incidents?all=true&scope=all 204 0 - 0.202 ms[39m
+[2026-08-11 15:57:09] [35mhttp[39m: [35mOPTIONS /api/users/agents 204 0 - 0.135 ms[39m
+[2026-08-11 15:57:09] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 0.590 ms[39m
+[2026-08-11 15:57:09] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 19.006 ms[39m
+[2026-08-11 15:57:09] [35mhttp[39m: [35mGET /api/users/agents 404 155 - 0.475 ms[39m
+[2026-08-11 15:57:09] [35mhttp[39m: [35mOPTIONS /api/users 204 0 - 0.113 ms[39m
+[2026-08-11 15:57:09] [35mhttp[39m: [35mGET /api/users 304 - - 13.335 ms[39m
+[2026-08-11 15:57:09] [35mhttp[39m: [35mGET /api/incidents?all=true&scope=all 304 - - 21.413 ms[39m
+[2026-08-11 15:57:10] [35mhttp[39m: [35mGET /api/users 304 - - 8.635 ms[39m

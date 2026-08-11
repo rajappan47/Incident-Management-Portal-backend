@@ -96,7 +96,6 @@ const getIncidents = async (user, query) => {
       { description: { $regex: search, $options: 'i' } },
     ];
   }
-
   // 4. Query Database with Populate & Sorting
   return await Incident.find(filter)
     .populate('category', 'name')
@@ -462,6 +461,83 @@ const exportIncidentsToCSV = async (user, query) => {
   return csv;
 };
 
+// 🆕 NEW — FR2-09: Escalation Notification
+// Finds overdue tickets that haven't been escalated yet,
+// and notifies the assignee + Admins (acting as "manager")
+const escalateOverdueIncidents = async () => {
+  const now = new Date();
+
+  const overdueIncidents = await Incident.find({
+    dueBy: { $lt: now },
+    //isEscalated: { $ne: true },
+    status: { $nin: ['Resolved', 'Closed'] },
+  })
+    .populate('assignedTo', 'name email')
+    .populate('reportedBy', 'name email');
+
+  if (overdueIncidents.length === 0) {
+    logger.info('[Escalation] No overdue incidents to escalate.');
+    return { escalatedCount: 0 };
+  }
+
+  const admins = await User.find({ role: 'Admin' }).select('name email');
+
+  let escalatedCount = 0;
+
+  for (const incident of overdueIncidents) {
+    const recipients = [];
+
+    if (incident.assignedTo?.email) {
+      recipients.push(incident.assignedTo.email);
+    }
+
+    admins.forEach((admin) => {
+      if (admin.email) recipients.push(admin.email);
+    });
+
+    for (const email of recipients) {
+      await sendNotification({
+        recipientEmail: email,
+        subject: `[ESCALATION] Incident #${incident._id.toString().slice(-6)} is overdue`,
+        message: `The ticket "${incident.title}" has breached its SLA and needs urgent attention.`,
+        html: `
+          <div style="font-family: Arial, sans-serif; padding: 20px; border: 1px solid #e0e0e0; border-radius: 8px;">
+            <h2 style="color: #ff4d4f;">⏰ SLA Breach — Escalation Notice</h2>
+            <p>The following ticket has passed its SLA due date and is still open:</p>
+            <ul>
+              <li><strong>Title:</strong> ${incident.title}</li>
+              <li><strong>Priority:</strong> ${incident.priority}</li>
+              <li><strong>Status:</strong> ${incident.status}</li>
+              <li><strong>SLA Due Date:</strong> ${new Date(incident.dueBy).toLocaleString()}</li>
+              <li><strong>Assigned To:</strong> ${incident.assignedTo?.name || 'Unassigned'}</li>
+            </ul>
+            <p>Please take action as soon as possible.</p>
+          </div>
+        `,
+      }).catch((err) => {
+        logger.error(`[Escalation] Failed to email ${email}: ${err.message}`);
+      });
+    }
+
+    incident.isEscalated = true;
+    incident.escalatedAt = now;
+    await incident.save();
+
+    await logActivity({
+      incidentId: incident._id,
+      action: 'Incident Escalated (SLA Breach)',
+      performedBy: null,
+      newValue: 'Escalated',
+    });
+
+    escalatedCount++;
+  }
+
+  logger.info(`[Escalation] Escalated ${escalatedCount} overdue incident(s).`);
+  return { escalatedCount };
+};
+
+
 module.exports = {
   createIncident,
   getIncidents,
@@ -472,4 +548,5 @@ module.exports = {
   getTeamMembers,
   updateIncidentStatus,
   exportIncidentsToCSV,
+  escalateOverdueIncidents,
 };

@@ -1,1 +1,19 @@
 [2026-08-10 13:12:24] [31merror[39m: [31m400 - Category already exists - /api/categories - POST - ::1[39m
+[2026-08-11 12:40:57] [31merror[39m: [31m429 - Too many requests from this IP. Please try again after 15 minutes. - /api/incidents/6a796721630e23aeecb8742e/comments - GET - ::1[39m
+[2026-08-11 12:40:57] [31merror[39m: [31m429 - Too many requests from this IP. Please try again after 15 minutes. - /api/users - GET - ::1[39m
+[2026-08-11 12:41:03] [31merror[39m: [31m429 - Too many requests from this IP. Please try again after 15 minutes. - /api/incidents - GET - ::1[39m
+[2026-08-11 12:41:03] [31merror[39m: [31m429 - Too many requests from this IP. Please try again after 15 minutes. - /api/incidents - GET - ::1[39m
+[2026-08-11 12:41:11] [31merror[39m: [31m429 - Too many requests from this IP. Please try again after 15 minutes. - /api/auth/me - GET - ::1[39m
+[2026-08-11 12:41:11] [31merror[39m: [31m429 - Too many requests from this IP. Please try again after 15 minutes. - /api/auth/me - GET - ::1[39m
+[2026-08-11 12:41:56] [31merror[39m: [31m429 - Too many requests from this IP. Please try again after 15 minutes. - /api/auth/login - POST - ::1[39m
+[2026-08-11 12:48:57] [31merror[39m: [31m401 - Invalid email or password - /api/auth/login - POST - ::1[39m
+[2026-08-11 15:36:07] [31merror[39m: [31m500 - page is not defined - /api/incidents?all=true&scope=all - GET - ::1[39m
+[2026-08-11 15:36:07] [31merror[39m: [31m500 - page is not defined - /api/incidents?all=true&scope=all - GET - ::1[39m
+[2026-08-11 15:36:07] [31merror[39m: [31m500 - page is not defined - /api/incidents - GET - ::1[39m
+[2026-08-11 15:36:07] [31merror[39m: [31m500 - page is not defined - /api/incidents - GET - ::1[39m
+[2026-08-11 15:36:16] [31merror[39m: [31m500 - page is not defined - /api/incidents?all=true&scope=all - GET - ::1[39m
+[2026-08-11 15:36:17] [31merror[39m: [31m500 - page is not defined - /api/incidents?all=true&scope=all - GET - ::1[39m
+[2026-08-11 15:36:17] [31merror[39m: [31m500 - page is not defined - /api/incidents - GET - ::1[39m
+[2026-08-11 15:36:17] [31merror[39m: [31m500 - page is not defined - /api/incidents - GET - ::1[39m
+[2026-08-11 15:36:18] [31merror[39m: [31m500 - page is not defined - /api/incidents - GET - ::1[39m
+[2026-08-11 15:36:19] [31merror[39m: [31m500 - page is not defined - /api/incidents - GET - ::1[39m

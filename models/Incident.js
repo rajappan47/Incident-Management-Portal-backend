@@ -42,6 +42,14 @@ const incidentSchema = new mongoose.Schema(
     dueBy: {
       type: Date, // Derived automatically based on priority SLA hours
     },
+      isEscalated: {
+      type: Boolean,
+      default: false,
+    },
+    escalatedAt: {
+      type: Date,
+      default: null,
+    },
   },
   {
     timestamps: true, // Auto-generates createdAt and updatedAt
@@ -55,5 +63,13 @@ incidentSchema.virtual('isOverdue').get(function () {
   }
   return new Date() > new Date(this.dueBy);
 });
+
+//  NEW — START (Pagination & Indexing requirement)
+incidentSchema.index({ status: 1 });
+incidentSchema.index({ priority: 1 });
+incidentSchema.index({ assignedTo: 1 });
+incidentSchema.index({ createdAt: -1 });
+//  NEW — END
+
 
 module.exports = mongoose.model('Incident', incidentSchema);
