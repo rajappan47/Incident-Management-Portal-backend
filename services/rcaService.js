@@ -2,6 +2,7 @@
 const mongoose = require('mongoose');
 const RCA = require('../models/RCA');
 const Incident = require('../models/Incident');
+const Attachment = require('../models/Attachment'); // 🆕 V3 — FR3-06, reusing the V1/V2 attachment mechanism
 const logActivity = require('../utils/activityLogger');
 
 const createCustomError = (message, statusCode) => {
@@ -367,6 +368,114 @@ const repairRCALinks = async () => {
   return { totalRCAs: allRCAs.length, fixedCount, details };
 };
 
+// =====================================================================
+// 🆕 V3 — FR3-06: RCA Evidence Attachments
+// Reuses the existing Attachment model and multer upload middleware
+// exactly as they already work for incidents — same disk storage, same
+// file-type filter (.png/.jpg/.jpeg/.pdf), same 5MB limit. Nothing about
+// the mechanism itself changes; this just points a new Attachment record
+// at an RCA via the rcaId field added to that model.
+// =====================================================================
+
+/**
+ * Add supporting evidence to an RCA. Same author-only, Draft-only rule as
+ * editing other RCA fields (updateRCADraft) — kept consistent rather than
+ * inventing a separate permission model just for attachments.
+ */
+const addRCAAttachment = async (rawIncidentId, file, user) => {
+  const rca = await findOwnedRCA(rawIncidentId);
+
+  if (rca.status !== 'Draft') {
+    throw createCustomError(
+      `Evidence can only be added while the RCA is a Draft (current status: "${rca.status}")`,
+      400
+    );
+  }
+
+  const userId = (user._id || user.id).toString();
+  const isAuthor = rca.authorId.toString() === userId;
+  if (!isAuthor) {
+    throw createCustomError('Not authorized to add evidence to this RCA record', 403);
+  }
+
+  if (!file) {
+    throw createCustomError('No file was uploaded', 400);
+  }
+
+  const attachment = await Attachment.create({
+    incidentId: rca.incidentId,
+    rcaId: rca._id,
+    fileName: file.originalname,
+    filePath: file.path,
+    uploadedBy: userId,
+  });
+
+  await logActivity({
+    incidentId: rca.incidentId,
+    action: `RCA Evidence Attached (${file.originalname})`,
+    performedBy: userId,
+  });
+
+  return attachment;
+};
+
+/**
+ * List evidence attached to an RCA. Visibility follows the same rule as
+ * viewing the RCA itself (getRCAByIncidentId) — reused here rather than
+ * re-implemented, so the two never drift out of sync.
+ */
+const getRCAAttachments = async (rawIncidentId, user) => {
+  // Reuses getRCAByIncidentId purely for its visibility check — if the
+  // caller isn't allowed to see the RCA, they're not allowed to see its
+  // evidence either. We don't need the returned RCA doc itself here.
+  await getRCAByIncidentId(rawIncidentId, user);
+
+  const rca = await findOwnedRCA(rawIncidentId);
+  return Attachment.find({ rcaId: rca._id })
+    .populate('uploadedBy', 'name email')
+    .sort({ uploadedAt: -1 });
+};
+
+/**
+ * Remove an evidence attachment. Same author-only, Draft-only rule as adding one.
+ */
+const deleteRCAAttachment = async (rawIncidentId, attachmentId, user) => {
+  const rca = await findOwnedRCA(rawIncidentId);
+
+  if (rca.status !== 'Draft') {
+    throw createCustomError(
+      `Evidence can only be removed while the RCA is a Draft (current status: "${rca.status}")`,
+      400
+    );
+  }
+
+  const userId = (user._id || user.id).toString();
+  const isAuthor = rca.authorId.toString() === userId;
+  if (!isAuthor) {
+    throw createCustomError('Not authorized to remove evidence from this RCA record', 403);
+  }
+
+  const cleanAttachmentId = sanitizeId(attachmentId);
+  if (!cleanAttachmentId) {
+    throw createCustomError('Invalid attachment ID format', 400);
+  }
+
+  const attachment = await Attachment.findOne({ _id: cleanAttachmentId, rcaId: rca._id });
+  if (!attachment) {
+    throw createCustomError('Attachment not found on this RCA record', 404);
+  }
+
+  await Attachment.deleteOne({ _id: cleanAttachmentId });
+
+  await logActivity({
+    incidentId: rca.incidentId,
+    action: `RCA Evidence Removed (${attachment.fileName})`,
+    performedBy: userId,
+  });
+
+  return true;
+};
+
 module.exports = {
   createRCA,
   getRCAByIncidentId,
@@ -375,4 +484,8 @@ module.exports = {
   approveRCA,
   rejectRCA,
   repairRCALinks,
+  addRCAAttachment,
+  getRCAAttachments,
+  deleteRCAAttachment,
 };
+

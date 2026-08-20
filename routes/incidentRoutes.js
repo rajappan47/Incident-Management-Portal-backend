@@ -960,4 +960,83 @@ router.get(
   incidentGroupingController.getGroup
 );
 
+/**
+ * @openapi
+ * /api/incidents/{id}/rca/attachments:
+ *   post:
+ *     summary: Attach supporting evidence (logs, screenshots) to an RCA record (FR3-06).
+ *       Reuses the same upload mechanism as incident creation.
+ *     tags: [Incidents - RCA]
+ *     security:
+ *       - bearerAuth: []
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         multipart/form-data:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               attachment:
+ *                 type: string
+ *                 format: binary
+ *     responses:
+ *       201:
+ *         description: Evidence attached successfully
+ *       400:
+ *         description: RCA is not in Draft status, or no file was uploaded
+ */
+// POST /api/incidents/:id/rca/attachments — 🆕 FR3-06
+router.post(
+  '/:id/rca/attachments',
+  protect,
+  authorizeRoles('Support Agent'), // same authoring restriction as the rest of FR3-01/FR3-02
+  upload.single('attachment'),
+  rcaIncidentIdValidation,
+  validate,
+  rcaController.uploadRCAAttachment
+);
+ 
+/**
+ * @openapi
+ * /api/incidents/{id}/rca/attachments:
+ *   get:
+ *     summary: List evidence attached to an RCA record (FR3-06)
+ *     tags: [Incidents - RCA]
+ *     security:
+ *       - bearerAuth: []
+ *     responses:
+ *       200:
+ *         description: Attachments retrieved
+ */
+// GET /api/incidents/:id/rca/attachments — 🆕 FR3-06
+router.get(
+  '/:id/rca/attachments',
+  protect,
+  rcaIncidentIdValidation,
+  validate,
+  rcaController.getRCAAttachments
+);
+ 
+/**
+ * @openapi
+ * /api/incidents/{id}/rca/attachments/{attachmentId}:
+ *   delete:
+ *     summary: Remove an evidence attachment from an RCA record (FR3-06)
+ *     tags: [Incidents - RCA]
+ *     security:
+ *       - bearerAuth: []
+ *     responses:
+ *       200:
+ *         description: Evidence removed successfully
+ */
+// DELETE /api/incidents/:id/rca/attachments/:attachmentId — 🆕 FR3-06
+router.delete(
+  '/:id/rca/attachments/:attachmentId',
+  protect,
+  authorizeRoles('Support Agent'),
+  rcaIncidentIdValidation,
+  validate,
+  rcaController.deleteRCAAttachment
+);
+
 module.exports = router;

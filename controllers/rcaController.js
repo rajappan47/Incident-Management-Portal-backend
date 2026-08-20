@@ -122,6 +122,39 @@ const repairRCALinks = async (req, res, next) => {
   }
 };
 
+// 🆕 V3 — FR3-06: POST /api/incidents/:id/rca/attachments (multipart/form-data)
+const uploadRCAAttachment = async (req, res, next) => {
+  try {
+    const attachment = await rcaService.addRCAAttachment(req.params.id, req.file, req.user);
+    res.status(201).json({
+      message: 'Evidence attached successfully',
+      attachment,
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+ 
+// 🆕 V3 — FR3-06: GET /api/incidents/:id/rca/attachments
+async function getRCAAttachments(req, res, next) {
+  try {
+    const attachments = await rcaService.getRCAAttachments(req.params.id, req.user);
+    res.status(200).json(attachments);
+  } catch (error) {
+    next(error);
+  }
+}
+ 
+// 🆕 V3 — FR3-06: DELETE /api/incidents/:id/rca/attachments/:attachmentId
+const deleteRCAAttachment = async (req, res, next) => {
+  try {
+    await rcaService.deleteRCAAttachment(req.params.id, req.params.attachmentId, req.user);
+    res.status(200).json({ message: 'Evidence removed successfully' });
+  } catch (error) {
+    next(error);
+  }
+};
+
 module.exports = {
   createRCA,
   getRCAByIncident,
@@ -130,4 +163,9 @@ module.exports = {
   approveRCA,
   rejectRCA,
   repairRCALinks,
+  uploadRCAAttachment,
+  getRCAAttachments,
+  deleteRCAAttachment,
+
 };
+
