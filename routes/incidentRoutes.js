@@ -10,8 +10,8 @@ const {
   getIncidentComments,
 } = require('../controllers/commentController');
 const rcaController = require('../controllers/rcaController'); // 🆕 V3 — RCA
-const incidentLinkController = require('../controllers/incidentLinkController'); // 🆕 V3 — FR3-08 / FR3-09
-const incidentGroupingController = require('../controllers/incidentGroupingController'); // 🆕 V3 — FR3-11
+const incidentLinkController = require('../controllers/Incidentlinkcontroller'); // 🆕 V3 — FR3-08 / FR3-09
+const incidentGroupingController = require('../controllers/Incidentgroupingcontroller'); // 🆕 V3 — FR3-11
 
 // Middlewares
 const { protect, authorizeRoles } = require('../middlewares/authMiddleware');
