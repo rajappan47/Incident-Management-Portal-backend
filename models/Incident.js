@@ -50,6 +50,30 @@ const incidentSchema = new mongoose.Schema(
       type: Date,
       default: null,
     },
+      rcaId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'RCA',
+      default: null,
+    },
+    rcaRequired: {
+      // Derived from priority — kept in sync via pre-save hook below.
+      // Critical/High => true (FR3-03 closure gate applies to these).
+      type: Boolean,
+      default: false,
+    },
+        isParentIncident: {
+      // Explicit flag per data model spec. NOTE: the actual list of children
+      // is always fetched by querying { parentIncidentId: this._id } live —
+      // this flag is a quick-check label for UI, not the source of truth.
+      type: Boolean,
+      default: false,
+    },
+    parentIncidentId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Incident',
+      default: null,
+    },
+
   },
   {
     timestamps: true, // Auto-generates createdAt and updatedAt
@@ -62,6 +86,14 @@ incidentSchema.virtual('isOverdue').get(function () {
     return false;
   }
   return new Date() > new Date(this.dueBy);
+});
+
+
+// Keep rcaRequired in sync whenever priority is set/changed
+incidentSchema.pre('save', function () {
+  if (this.isModified('priority') || this.isNew) {
+    this.rcaRequired = ['Critical', 'High'].includes(this.priority);
+  }
 });
 
 //  NEW — START (Pagination & Indexing requirement)

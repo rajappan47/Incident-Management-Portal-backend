@@ -1,7 +1,7 @@
 // backend/routes/dashboardRoutes.js
 const express = require('express');
 const router = express.Router();
-const { getMetrics } = require('../controllers/dashboardController');
+const { getMetrics, getTopRootCauses, getAgentPerformance } = require('../controllers/dashboardController'); // 🆕 V3 — FR3-15 / FR3-17 now consolidated here
 const { protect } = require('../middlewares/authMiddleware');
 
 
@@ -38,5 +38,69 @@ const { protect } = require('../middlewares/authMiddleware');
  */
 // GET /api/dashboard/metrics
 router.get('/metrics', protect, getMetrics);
+
+/**
+ * @openapi
+ * /api/dashboard/top-root-causes:
+ *   get:
+ *     summary: Ranked list of the most frequent root cause categories from
+ *       Approved RCAs over a given period (FR3-15)
+ *     tags: [Dashboard]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: query
+ *         name: startDate
+ *         schema:
+ *           type: string
+ *           format: date
+ *       - in: query
+ *         name: endDate
+ *         schema:
+ *           type: string
+ *           format: date
+ *       - in: query
+ *         name: limit
+ *         schema:
+ *           type: number
+ *           default: 5
+ *     responses:
+ *       200:
+ *         description: Top root causes retrieved successfully
+ */
+// GET /api/dashboard/top-root-causes — 🆕 FR3-15
+router.get('/top-root-causes', protect, getTopRootCauses);
+
+/**
+ * @openapi
+ * /api/dashboard/agent-performance:
+ *   get:
+ *     summary: Average resolution time and SLA compliance %, by agent or team (FR3-17)
+ *     tags: [Dashboard]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: query
+ *         name: groupBy
+ *         schema:
+ *           type: string
+ *           enum: [agent, team]
+ *           default: agent
+ *       - in: query
+ *         name: startDate
+ *         schema:
+ *           type: string
+ *           format: date
+ *       - in: query
+ *         name: endDate
+ *         schema:
+ *           type: string
+ *           format: date
+ *     responses:
+ *       200:
+ *         description: Performance data retrieved successfully
+ */
+// GET /api/dashboard/agent-performance — 🆕 FR3-17
+router.get('/agent-performance', protect, getAgentPerformance);
 
 module.exports = router;

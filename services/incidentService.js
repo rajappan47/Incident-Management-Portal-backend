@@ -7,6 +7,7 @@ const { sendNotification } = require('./notificationService');
 const { Parser } = require('json2csv');
 const mongoose = require('mongoose');
 const logger = require('../utils/logger');
+const RCA = require('../models/RCA'); // 🆕 V3 — FR3-03
 
 
 const createCustomError = (message, statusCode) => {
@@ -63,12 +64,12 @@ const createIncident = async ({ title, description, category, priority, assigned
 
 // Get incidents based on user role and query filters
 const getIncidents = async (user, query) => {
-  const { status, priority, category, search, all, scope } = query;
+  const { status, priority, category, search, all, scope, rcaCategory, assignedTo, team } = query;
   let filter = {};
-
+ 
   // Treat both `all=true` and `scope=all` as an explicit request to see everything
   const wantsAllTickets = all === 'true' || all === true || scope === 'all';
-
+ 
   // 🔒 1. Role-based Visibility Guards
   if (user.role === 'End User' || user.role === 'Customer') {
     // End Users / Customers must ALWAYS see only their own tickets,
@@ -83,12 +84,40 @@ const getIncidents = async (user, query) => {
     // when wantsAllTickets is true, filter stays {} for this branch → all tickets visible
   }
   // Admins: no restriction, filter stays {} always
-
+ 
   // 2. Filter criteria
   if (status) filter.status = status;
   if (priority) filter.priority = priority;
   if (category) filter.category = category;
-
+ 
+  // 🆕 V3 — FR3-17 / FR3-18: explicit agent filter, used by the dashboard's
+  // drill-down (e.g. clicking an agent's row in the Performance widget).
+  // Applied after the role-based guard above, so it can narrow further —
+  // e.g. an Admin browsing "all tickets for agent X".
+  if (assignedTo) filter.assignedTo = assignedTo;
+ 
+  // 🆕 V3 — FR3-17 / FR3-18: filter by team. Team lives on the User document,
+  // not Incident, so this is a two-step lookup rather than a direct field match.
+  if (team) {
+    const User = require('../models/User');
+    const teamUsers = await User.find({ team }).select('_id');
+    const teamUserIds = teamUsers.map((u) => u._id);
+    filter.assignedTo = filter.assignedTo
+      ? filter.assignedTo // an explicit assignedTo already narrows further than team would
+      : { $in: teamUserIds };
+  }
+ 
+  // 🆕 V3 — FR3-18: drill-down from the Top Root Causes widget. RCA.category
+  // is a completely different taxonomy from Incident.category (root-cause
+  // type vs. ticket category), so this can't be a simple field match — it
+  // has to look up which incidents have an Approved RCA of that category.
+  if (rcaCategory) {
+    const matchingRCAs = await RCA.find({ category: rcaCategory, status: 'Approved' }).select(
+      'incidentId'
+    );
+    filter._id = { $in: matchingRCAs.map((r) => r.incidentId) };
+  }
+ 
   // 3. Keyword search on title or description
   if (search) {
     filter.$or = [
@@ -103,7 +132,7 @@ const getIncidents = async (user, query) => {
     .populate('assignedTo', 'name email team')
     .sort({ createdAt: -1 });
 };
-
+ 
 const getIncidentAll = async () => {
   return await Incident.find()
     .populate('category', 'name')
@@ -233,6 +262,9 @@ const assignIncident = async (incidentId, agentId, assignedByUserId) => {
           <p>Please review and update the ticket status in the portal.</p>
         </div>
       `,
+    }).catch((err) => {
+      // 🩹 FIX: same un-guarded rejection issue as updateIncidentStatus above.
+      logger.error(`Failed to send assignment email: ${err.message}`);
     });
   }
 
@@ -395,6 +427,21 @@ const updateIncidentStatus = async (incidentId, status, updatedByUserId) => {
     throw createCustomError(`Invalid status. Must be one of: ${allowedStatuses.join(', ')}`,400);
   }
 
+  // 🆕 V3 — START — FR3-03: Mandatory Approved RCA before closing Critical/High incidents
+  if (status === 'Closed' && ['Critical', 'High'].includes(incident.priority)) {
+    // 🩹 FIX: look up by incidentId directly instead of trusting incident.rcaId —
+    // that back-reference is what the earlier save bug could leave stale/null on
+    // old data. RCA.incidentId is set atomically at creation and is always correct.
+    const rca = await RCA.findOne({ incidentId: incident._id });
+    if (!rca || rca.status !== 'Approved') {
+      throw createCustomError(
+        `Cannot close a ${incident.priority} priority incident without an Approved RCA record.`,
+        400
+      );
+    }
+  }
+  // 🆕 V3 — END — FR3-03
+
   const oldStatus = incident.status;
   incident.status = status;
   await incident.save();
@@ -426,6 +473,12 @@ const updateIncidentStatus = async (incidentId, status, updatedByUserId) => {
           </p>
         </div>
       `,
+    }).catch((err) => {
+      // 🩹 FIX: was previously un-guarded — an SMTP failure here was an
+      // unhandled promise rejection, which crashes the whole Node process
+      // (Node 15+ default behavior). That's what was causing the burst of
+      // unrelated 500s across /status, /rca, etc. right after a status change.
+      logger.error(`Failed to send status update email: ${err.message}`);
     });
   }
 
