@@ -71,15 +71,20 @@ app.use('/api/dashboard', dashboardRoutes);
 app.use('/api/admin', adminRoutes);
 // Mount user management routes
 app.use('/api/users', userRoutes);
-app.use(errorHandler);
-app.use('/api/health', healthRoutes);
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  logger.info(`Server running on port ${PORT}`);
-  logger.info(`Swagger API Documentation live at http://localhost:${PORT}/api-docs`);
-  startEscalationJob();
+app.use('/api/health', healthRoutes);   // moved up, before errorHandler
+app.use(errorHandler);                   // errorHandler now goes LAST
 
-});
+const PORT = process.env.PORT || 5000;
+
+if (require.main === module) {
+  app.listen(PORT, () => {
+    logger.info(`Server running on port ${PORT}`);
+    logger.info(`Swagger API Documentation live at http://localhost:${PORT}/api-docs`);
+    startEscalationJob();
+  });
+}
+
+module.exports = app;
 
 
 
